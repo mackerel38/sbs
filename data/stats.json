@@ -1,0 +1,433 @@
+{
+  "fetched_at": "2026-11-03T22:06:50+00:00",
+  "profile": "Kiwi",
+  "game_mode": "normal",
+  "skyblock_xp": 3297,
+  "skills_xp": {
+    "foraging": 28092.725000000326,
+    "mining": 250948.6484999995,
+    "fishing": 32550.12499999997,
+    "farming": 772689.3000000056,
+    "combat": 347360.09999999916,
+    "enchanting": 1277204.4670129009,
+    "runecrafting": 553.9000000000001,
+    "taming": 248316.90959973892,
+    "social": 37.25
+  },
+  "dungeons": {
+    "catacombs_xp": 1291.3457934313726,
+    "class_xp": {
+      "healer": 20.4238125,
+      "mage": 88.37371527777776,
+      "berserk": 1216.1733120915032,
+      "archer": 155.33919607843137,
+      "tank": 109.43716666666666
+    },
+    "floor_completions": {
+      "0": 14.0,
+      "total": 15.0,
+      "1": 1.0
+    },
+    "master_completions": {}
+  },
+  "slayer_xp": {},
+  "pets": [
+    {
+      "type": "ROCK",
+      "tier": "COMMON",
+      "exp": 1762.0123333333352,
+      "active": false,
+      "item": null
+    },
+    {
+      "type": "ENDERMAN",
+      "tier": "COMMON",
+      "exp": 10458.556239229743,
+      "active": false,
+      "item": null
+    },
+    {
+      "type": "ENDERMAN",
+      "tier": "UNCOMMON",
+      "exp": 1250350.3161076729,
+      "active": true,
+      "item": null
+    },
+    {
+      "type": "GRANDMA_WOLF",
+      "tier": "COMMON",
+      "exp": 0.0,
+      "active": false,
+      "item": null
+    },
+    {
+      "type": "SILVERFISH",
+      "tier": "COMMON",
+      "exp": 26047.677600000043,
+      "active": false,
+      "item": null
+    },
+    {
+      "type": "GRIFFIN",
+      "tier": "COMMON",
+      "exp": 266.24700000000007,
+      "active": false,
+      "item": null
+    },
+    {
+      "type": "RAT",
+      "tier": "LEGENDARY",
+      "exp": 6702.467296816174,
+      "active": false,
+      "item": null
+    }
+  ],
+  "gear": {
+    "armor": [
+      {
+        "name": "Wise Strong Dragon Boots",
+        "id": "STRONG_DRAGON_BOOTS",
+        "reforge": "wise",
+        "enchantments": {
+          "depth_strider": 3,
+          "thorns": 3,
+          "feather_falling": 5,
+          "protection": 5,
+          "growth": 5
+        }
+      },
+      {
+        "name": "Fierce Strong Dragon Leggings",
+        "id": "STRONG_DRAGON_LEGGINGS",
+        "reforge": "fierce",
+        "enchantments": {
+          "thorns": 3,
+          "protection": 5,
+          "growth": 5
+        }
+      },
+      {
+        "name": "Fierce Strong Dragon Chestplate",
+        "id": "STRONG_DRAGON_CHESTPLATE",
+        "reforge": "fierce",
+        "enchantments": {
+          "thorns": 3,
+          "protection": 5,
+          "growth": 5
+        }
+      },
+      {
+        "name": "Fierce Strong Dragon Helmet",
+        "id": "STRONG_DRAGON_HELMET",
+        "reforge": "fierce",
+        "enchantments": {
+          "thorns": 3,
+          "protection": 5,
+          "respiration": 3,
+          "growth": 5,
+          "aqua_affinity": 1
+        }
+      }
+    ],
+    "equipment": [
+      {
+        "name": "Menacing Ender Necklace",
+        "id": "ENDER_NECKLACE",
+        "reforge": "menacing"
+      },
+      {
+        "name": "Menacing Ender Cloak",
+        "id": "ENDER_CLOAK",
+        "reforge": "menacing"
+      },
+      {
+        "name": "Menacing Ender Gauntlet",
+        "id": "ENDER_GAUNTLET",
+        "reforge": "menacing"
+      }
+    ],
+    "inventory": [
+      {
+        "name": "Grappling Hook",
+        "id": "GRAPPLING_HOOK"
+      },
+      {
+        "name": "Sharp Aspect of the End",
+        "id": "ASPECT_OF_THE_END",
+        "reforge": "sharp",
+        "enchantments": {
+          "bane_of_arthropods": 5,
+          "impaling": 5,
+          "luck": 5,
+          "critical": 5,
+          "cleave": 5,
+          "smite": 5,
+          "looting": 3,
+          "ender_slayer": 6,
+          "scavenger": 3,
+          "experience": 3,
+          "vampirism": 5,
+          "life_steal": 3,
+          "execute": 5,
+          "giant_killer": 5,
+          "first_strike": 4,
+          "venomous": 5,
+          "dragon_hunter": 5,
+          "thunderlord": 5,
+          "sharpness": 5,
+          "cubism": 5,
+          "lethality": 5
+        }
+      },
+      {
+        "name": "Heroic Zombie Sword",
+        "id": "ZOMBIE_SWORD",
+        "reforge": "heroic",
+        "enchantments": {
+          "impaling": 5,
+          "bane_of_arthropods": 5,
+          "luck": 3,
+          "critical": 5,
+          "cleave": 5,
+          "looting": 3,
+          "smite": 5,
+          "scavenger": 3,
+          "ender_slayer": 5,
+          "vampirism": 5,
+          "experience": 3,
+          "life_steal": 3,
+          "execute": 5,
+          "giant_killer": 5,
+          "dragon_hunter": 5,
+          "venomous": 5,
+          "first_strike": 4,
+          "thunderlord": 5,
+          "sharpness": 5,
+          "cubism": 5,
+          "lethality": 5
+        }
+      },
+      {
+        "name": "Hasty Runaan's Bow",
+        "id": "RUNAANS_BOW",
+        "reforge": "hasty",
+        "enchantments": {
+          "impaling": 5,
+          "chance": 3,
+          "dragon_hunter": 5,
+          "piercing": 1,
+          "infinite_quiver": 5,
+          "power": 5,
+          "snipe": 3,
+          "cubism": 5,
+          "aiming": 5
+        }
+      },
+      {
+        "name": "Magnetic Stonk",
+        "id": "STONK_PICKAXE",
+        "reforge": "magnetic",
+        "enchantments": {
+          "efficiency": 6,
+          "smelting_touch": 1,
+          "fortune": 3,
+          "experience": 3
+        }
+      },
+      {
+        "name": "Magnetic Lapis Pickaxe",
+        "id": "LAPIS_PICKAXE",
+        "reforge": "magnetic",
+        "enchantments": {
+          "efficiency": 5,
+          "smelting_touch": 1
+        }
+      },
+      {
+        "name": "Rotten Flesh",
+        "id": "ROTTEN_FLESH"
+      },
+      {
+        "name": "Slimeball",
+        "id": "SLIME_BALL"
+      },
+      {
+        "name": "SkyBlock Menu (Click)",
+        "id": "SKYBLOCK_MENU"
+      },
+      {
+        "name": "End Stone Rose",
+        "id": "ENDSTONE_ROSE"
+      },
+      {
+        "name": "Ender Pearl",
+        "id": "ENDER_PEARL"
+      },
+      {
+        "name": "◆ Sparkling Rune I",
+        "id": "RUNE"
+      },
+      {
+        "name": "Enchanted Ender Pearl",
+        "id": "ENCHANTED_ENDER_PEARL"
+      },
+      {
+        "name": "Ender Pearl",
+        "id": "ENDER_PEARL"
+      },
+      {
+        "name": "Enchanted End Stone",
+        "id": "ENCHANTED_ENDSTONE"
+      },
+      {
+        "name": "Ender Pearl",
+        "id": "ENDER_PEARL"
+      },
+      {
+        "name": "Grand Experience Bottle",
+        "id": "GRAND_EXP_BOTTLE"
+      },
+      {
+        "name": "Ender Leggings",
+        "id": "END_LEGGINGS"
+      },
+      {
+        "name": "Enchanted Obsidian",
+        "id": "ENCHANTED_OBSIDIAN"
+      },
+      {
+        "name": "Obsidian",
+        "id": "OBSIDIAN"
+      },
+      {
+        "name": "Ender Pearl",
+        "id": "ENDER_PEARL"
+      },
+      {
+        "name": "End Stone",
+        "id": "ENDER_STONE"
+      },
+      {
+        "name": "Ender Pearl",
+        "id": "ENDER_PEARL"
+      },
+      {
+        "name": "Ender Pearl",
+        "id": "ENDER_PEARL"
+      },
+      {
+        "name": "Obsidian",
+        "id": "OBSIDIAN"
+      },
+      {
+        "name": "◆ Lava Rune I",
+        "id": "RUNE"
+      },
+      {
+        "name": "Obsidian",
+        "id": "OBSIDIAN"
+      },
+      {
+        "name": "Ender Pearl",
+        "id": "ENDER_PEARL"
+      },
+      {
+        "name": "Ender Pearl",
+        "id": "ENDER_PEARL"
+      },
+      {
+        "name": "Obsidian",
+        "id": "OBSIDIAN"
+      },
+      {
+        "name": "Ender Pearl",
+        "id": "ENDER_PEARL"
+      },
+      {
+        "name": "Crystal Fragment",
+        "id": "CRYSTAL_FRAGMENT"
+      }
+    ],
+    "wardrobe": [],
+    "accessories": [
+      {
+        "name": "Farming Talisman",
+        "id": "FARMING_TALISMAN"
+      },
+      {
+        "name": "Campfire Initiate Badge I",
+        "id": "CAMPFIRE_TALISMAN_1"
+      },
+      {
+        "name": "Red Claw Talisman",
+        "id": "RED_CLAW_TALISMAN"
+      },
+      {
+        "name": "Scavenger Talisman",
+        "id": "SCAVENGER_TALISMAN"
+      },
+      {
+        "name": "Intimidation Talisman",
+        "id": "INTIMIDATION_TALISMAN"
+      },
+      {
+        "name": "Zombie Talisman",
+        "id": "ZOMBIE_TALISMAN"
+      },
+      {
+        "name": "Skeleton Talisman",
+        "id": "SKELETON_TALISMAN"
+      },
+      {
+        "name": "Village Affinity Talisman",
+        "id": "VILLAGE_TALISMAN"
+      },
+      {
+        "name": "Mine Affinity Talisman",
+        "id": "MINE_TALISMAN"
+      },
+      {
+        "name": "Feather Talisman",
+        "id": "FEATHER_TALISMAN"
+      },
+      {
+        "name": "Personal Compactor 4000",
+        "id": "PERSONAL_COMPACTOR_4000"
+      },
+      {
+        "name": "Personal Compactor 4000",
+        "id": "PERSONAL_COMPACTOR_4000"
+      }
+    ]
+  },
+  "accessory_power": 34,
+  "hotm": null,
+  "member_keys": [
+    "accessory_bag_storage",
+    "bestiary",
+    "collection",
+    "currencies",
+    "dungeons",
+    "events",
+    "experimentation",
+    "fairy_soul",
+    "foraging_core",
+    "garden_player_data",
+    "inventory",
+    "jacobs_contest",
+    "leveling",
+    "loadout",
+    "mining_core",
+    "objectives",
+    "pets_data",
+    "player_data",
+    "player_id",
+    "player_stats",
+    "profile",
+    "quests",
+    "rift",
+    "shards",
+    "skill_tree",
+    "trophy_fish"
+  ]
+}
