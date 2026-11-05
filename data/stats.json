@@ -1,32 +1,32 @@
 {
-  "fetched_at": "2026-11-05T00:44:40+00:00",
+  "fetched_at": "2026-11-05T02:21:39+00:00",
   "profile": "Kiwi",
   "game_mode": "normal",
-  "skyblock_xp": 3438,
+  "skyblock_xp": 3512,
   "skills_xp": {
-    "foraging": 28092.725000000326,
+    "foraging": 28437.725000000326,
     "mining": 251297.2484999995,
     "fishing": 32582.12499999997,
     "farming": 773360.3000000056,
-    "combat": 397492.09999999916,
+    "combat": 401453.09999999916,
     "enchanting": 1284986.1272089668,
     "runecrafting": 614.4000000000001,
-    "taming": 263402.12941289437,
+    "taming": 264604.54941289383,
     "social": 37.25
   },
   "dungeons": {
-    "catacombs_xp": 3027.01873120915,
+    "catacombs_xp": 3137.565064542483,
     "class_xp": {
       "healer": 123.50756249999999,
       "mage": 283.03521527777775,
-      "berserk": 2897.13097875817,
-      "archer": 380.91711274509805,
+      "berserk": 2997.6276454248364,
+      "archer": 406.0412794117647,
       "tank": 207.49238888888885
     },
     "floor_completions": {
       "0": 14.0,
-      "total": 20.0,
-      "1": 6.0
+      "total": 21.0,
+      "1": 7.0
     },
     "master_completions": {}
   },
@@ -77,7 +77,7 @@
     {
       "type": "RAT",
       "tier": "LEGENDARY",
-      "exp": 58447.90731857408,
+      "exp": 63257.58731857416,
       "active": true,
       "item": null
     }
@@ -245,6 +245,10 @@
         "id": "SUPERBOOM_TNT"
       },
       {
+        "name": "Ender Pearl",
+        "id": "ENDER_PEARL"
+      },
+      {
         "name": "Magnetic Stonk",
         "id": "STONK_PICKAXE",
         "reforge": "magnetic",
@@ -258,6 +262,40 @@
       {
         "name": "SkyBlock Menu (Click)",
         "id": "SKYBLOCK_MENU"
+      },
+      {
+        "name": "Decoy",
+        "id": "DUNGEON_DECOY"
+      },
+      {
+        "name": "Jawbreaker",
+        "id": "JAWBREAKER"
+      },
+      {
+        "name": "Spirit Leap",
+        "id": "SPIRIT_LEAP"
+      },
+      {
+        "name": "Lever",
+        "id": "LEVER"
+      },
+      {
+        "name": "Festering Fly",
+        "id": "FESTERING_FLY"
+      },
+      {
+        "name": "Pure Heavy Leggings",
+        "id": "HEAVY_LEGGINGS",
+        "reforge": "pure",
+        "enchantments": {
+          "thorns": 3,
+          "protection": 5,
+          "growth": 5
+        }
+      },
+      {
+        "name": "Recombobulator 3000",
+        "id": "RECOMBOBULATOR_3000"
       }
     ],
     "wardrobe": [],
@@ -333,10 +371,30 @@
       {
         "name": "Runeblade Ring",
         "id": "RUNEBLADE_RING"
+      },
+      {
+        "name": "Bat Talisman",
+        "id": "BAT_TALISMAN"
+      },
+      {
+        "name": "Spider Talisman",
+        "id": "SPIDER_TALISMAN"
+      },
+      {
+        "name": "Gravity Talisman",
+        "id": "GRAVITY_TALISMAN"
+      },
+      {
+        "name": "Pig's Foot",
+        "id": "PIGS_FOOT"
+      },
+      {
+        "name": "Wolf Paw",
+        "id": "WOLF_PAW"
       }
     ]
   },
-  "accessory_power": 56,
+  "accessory_power": 87,
   "hotm": null,
   "member_keys": [
     "accessory_bag_storage",
@@ -347,6 +405,7 @@
     "events",
     "experimentation",
     "fairy_soul",
+    "foraging",
     "foraging_core",
     "garden_player_data",
     "inventory",
