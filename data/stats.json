@@ -1,32 +1,32 @@
 {
-  "fetched_at": "2026-11-03T22:06:50+00:00",
+  "fetched_at": "2026-11-05T00:44:40+00:00",
   "profile": "Kiwi",
   "game_mode": "normal",
-  "skyblock_xp": 3297,
+  "skyblock_xp": 3438,
   "skills_xp": {
     "foraging": 28092.725000000326,
-    "mining": 250948.6484999995,
-    "fishing": 32550.12499999997,
-    "farming": 772689.3000000056,
-    "combat": 347360.09999999916,
-    "enchanting": 1277204.4670129009,
-    "runecrafting": 553.9000000000001,
-    "taming": 248316.90959973892,
+    "mining": 251297.2484999995,
+    "fishing": 32582.12499999997,
+    "farming": 773360.3000000056,
+    "combat": 397492.09999999916,
+    "enchanting": 1284986.1272089668,
+    "runecrafting": 614.4000000000001,
+    "taming": 263402.12941289437,
     "social": 37.25
   },
   "dungeons": {
-    "catacombs_xp": 1291.3457934313726,
+    "catacombs_xp": 3027.01873120915,
     "class_xp": {
-      "healer": 20.4238125,
-      "mage": 88.37371527777776,
-      "berserk": 1216.1733120915032,
-      "archer": 155.33919607843137,
-      "tank": 109.43716666666666
+      "healer": 123.50756249999999,
+      "mage": 283.03521527777775,
+      "berserk": 2897.13097875817,
+      "archer": 380.91711274509805,
+      "tank": 207.49238888888885
     },
     "floor_completions": {
       "0": 14.0,
-      "total": 15.0,
-      "1": 1.0
+      "total": 20.0,
+      "1": 6.0
     },
     "master_completions": {}
   },
@@ -49,8 +49,8 @@
     {
       "type": "ENDERMAN",
       "tier": "UNCOMMON",
-      "exp": 1250350.3161076729,
-      "active": true,
+      "exp": 1259230.215360271,
+      "active": false,
       "item": null
     },
     {
@@ -77,8 +77,8 @@
     {
       "type": "RAT",
       "tier": "LEGENDARY",
-      "exp": 6702.467296816174,
-      "active": false,
+      "exp": 58447.90731857408,
+      "active": true,
       "item": null
     }
   ],
@@ -150,6 +150,23 @@
       {
         "name": "Grappling Hook",
         "id": "GRAPPLING_HOOK"
+      },
+      {
+        "name": "Sharp Aspect of the Dragons",
+        "id": "ASPECT_OF_THE_DRAGON",
+        "reforge": "sharp",
+        "enchantments": {
+          "critical": 5,
+          "venomous": 5,
+          "smite": 5,
+          "thunderlord": 5,
+          "sharpness": 5,
+          "life_steal": 3,
+          "execute": 5,
+          "cubism": 5,
+          "giant_killer": 5,
+          "lethality": 5
+        }
       },
       {
         "name": "Sharp Aspect of the End",
@@ -224,6 +241,10 @@
         }
       },
       {
+        "name": "Superboom TNT",
+        "id": "SUPERBOOM_TNT"
+      },
+      {
         "name": "Magnetic Stonk",
         "id": "STONK_PICKAXE",
         "reforge": "magnetic",
@@ -235,117 +256,8 @@
         }
       },
       {
-        "name": "Magnetic Lapis Pickaxe",
-        "id": "LAPIS_PICKAXE",
-        "reforge": "magnetic",
-        "enchantments": {
-          "efficiency": 5,
-          "smelting_touch": 1
-        }
-      },
-      {
-        "name": "Rotten Flesh",
-        "id": "ROTTEN_FLESH"
-      },
-      {
-        "name": "Slimeball",
-        "id": "SLIME_BALL"
-      },
-      {
         "name": "SkyBlock Menu (Click)",
         "id": "SKYBLOCK_MENU"
-      },
-      {
-        "name": "End Stone Rose",
-        "id": "ENDSTONE_ROSE"
-      },
-      {
-        "name": "Ender Pearl",
-        "id": "ENDER_PEARL"
-      },
-      {
-        "name": "◆ Sparkling Rune I",
-        "id": "RUNE"
-      },
-      {
-        "name": "Enchanted Ender Pearl",
-        "id": "ENCHANTED_ENDER_PEARL"
-      },
-      {
-        "name": "Ender Pearl",
-        "id": "ENDER_PEARL"
-      },
-      {
-        "name": "Enchanted End Stone",
-        "id": "ENCHANTED_ENDSTONE"
-      },
-      {
-        "name": "Ender Pearl",
-        "id": "ENDER_PEARL"
-      },
-      {
-        "name": "Grand Experience Bottle",
-        "id": "GRAND_EXP_BOTTLE"
-      },
-      {
-        "name": "Ender Leggings",
-        "id": "END_LEGGINGS"
-      },
-      {
-        "name": "Enchanted Obsidian",
-        "id": "ENCHANTED_OBSIDIAN"
-      },
-      {
-        "name": "Obsidian",
-        "id": "OBSIDIAN"
-      },
-      {
-        "name": "Ender Pearl",
-        "id": "ENDER_PEARL"
-      },
-      {
-        "name": "End Stone",
-        "id": "ENDER_STONE"
-      },
-      {
-        "name": "Ender Pearl",
-        "id": "ENDER_PEARL"
-      },
-      {
-        "name": "Ender Pearl",
-        "id": "ENDER_PEARL"
-      },
-      {
-        "name": "Obsidian",
-        "id": "OBSIDIAN"
-      },
-      {
-        "name": "◆ Lava Rune I",
-        "id": "RUNE"
-      },
-      {
-        "name": "Obsidian",
-        "id": "OBSIDIAN"
-      },
-      {
-        "name": "Ender Pearl",
-        "id": "ENDER_PEARL"
-      },
-      {
-        "name": "Ender Pearl",
-        "id": "ENDER_PEARL"
-      },
-      {
-        "name": "Obsidian",
-        "id": "OBSIDIAN"
-      },
-      {
-        "name": "Ender Pearl",
-        "id": "ENDER_PEARL"
-      },
-      {
-        "name": "Crystal Fragment",
-        "id": "CRYSTAL_FRAGMENT"
       }
     ],
     "wardrobe": [],
@@ -397,10 +309,34 @@
       {
         "name": "Personal Compactor 4000",
         "id": "PERSONAL_COMPACTOR_4000"
+      },
+      {
+        "name": "Vaccine Talisman",
+        "id": "VACCINE_TALISMAN"
+      },
+      {
+        "name": "Speed Talisman",
+        "id": "SPEED_TALISMAN"
+      },
+      {
+        "name": "Healing Talisman",
+        "id": "HEALING_TALISMAN"
+      },
+      {
+        "name": "Magnetic Talisman",
+        "id": "MAGNETIC_TALISMAN"
+      },
+      {
+        "name": "Sea Creature Talisman",
+        "id": "SEA_CREATURE_TALISMAN"
+      },
+      {
+        "name": "Runeblade Ring",
+        "id": "RUNEBLADE_RING"
       }
     ]
   },
-  "accessory_power": 34,
+  "accessory_power": 56,
   "hotm": null,
   "member_keys": [
     "accessory_bag_storage",
