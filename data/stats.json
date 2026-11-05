@@ -1,18 +1,19 @@
 {
-  "fetched_at": "2026-11-05T05:28:17+00:00",
+  "fetched_at": "2026-11-05T18:21:39+00:00",
   "profile": "Kiwi",
   "game_mode": "normal",
-  "skyblock_xp": 3661,
+  "skyblock_xp": 3971,
   "skills_xp": {
-    "foraging": 28437.725000000326,
-    "mining": 251297.2484999995,
-    "fishing": 32582.12499999997,
-    "farming": 773362.3000000056,
-    "combat": 540937.5999999992,
-    "enchanting": 1284986.1272089668,
-    "runecrafting": 674.9000000000001,
-    "taming": 305752.6735795554,
-    "social": 37.25
+    "foraging": 28552.925000000352,
+    "mining": 432609.6234999995,
+    "fishing": 33361.32499999998,
+    "farming": 773647.9000000067,
+    "combat": 547634.8200000051,
+    "enchanting": 1421622.6170414486,
+    "runecrafting": 795.9000000000001,
+    "taming": 329105.7060837708,
+    "social": 37.25,
+    "carpentry": 3347.040000000001
   },
   "dungeons": {
     "catacombs_xp": 6436.458893391145,
@@ -31,7 +32,14 @@
     },
     "master_completions": {}
   },
-  "slayer_xp": {},
+  "slayer_xp": {
+    "wolf": 0,
+    "zombie": 130,
+    "spider": 0,
+    "enderman": 0,
+    "vampire": 0,
+    "blaze": 0
+  },
   "pets": [
     {
       "type": "ROCK",
@@ -78,7 +86,7 @@
     {
       "type": "RAT",
       "tier": "LEGENDARY",
-      "exp": 227850.08398524148,
+      "exp": 321262.2140021008,
       "active": true,
       "item": null
     }
@@ -86,9 +94,9 @@
   "gear": {
     "armor": [
       {
-        "name": "Fierce Skeleton Soldier Boots",
-        "id": "SKELETON_SOLDIER_BOOTS",
-        "reforge": "fierce",
+        "name": "Wise Strong Dragon Boots",
+        "id": "STRONG_DRAGON_BOOTS",
+        "reforge": "wise",
         "enchantments": {
           "depth_strider": 3,
           "thorns": 3,
@@ -98,8 +106,8 @@
         }
       },
       {
-        "name": "Fierce Skeleton Soldier Leggings",
-        "id": "SKELETON_SOLDIER_LEGGINGS",
+        "name": "Fierce Strong Dragon Leggings",
+        "id": "STRONG_DRAGON_LEGGINGS",
         "reforge": "fierce",
         "enchantments": {
           "thorns": 3,
@@ -108,8 +116,8 @@
         }
       },
       {
-        "name": "Fierce Skeleton Soldier Chestplate",
-        "id": "SKELETON_SOLDIER_CHESTPLATE",
+        "name": "Fierce Strong Dragon Chestplate",
+        "id": "STRONG_DRAGON_CHESTPLATE",
         "reforge": "fierce",
         "enchantments": {
           "thorns": 3,
@@ -118,9 +126,16 @@
         }
       },
       {
-        "name": "Fierce Bonzo's Mask",
-        "id": "BONZO_MASK",
-        "reforge": "fierce"
+        "name": "Fierce Strong Dragon Helmet",
+        "id": "STRONG_DRAGON_HELMET",
+        "reforge": "fierce",
+        "enchantments": {
+          "thorns": 3,
+          "protection": 5,
+          "respiration": 3,
+          "growth": 5,
+          "aqua_affinity": 1
+        }
       }
     ],
     "equipment": [
@@ -235,174 +250,28 @@
         }
       },
       {
-        "name": "Superboom TNT",
-        "id": "SUPERBOOM_TNT"
+        "name": "Magnetic Stonk",
+        "id": "STONK_PICKAXE",
+        "reforge": "magnetic",
+        "enchantments": {
+          "efficiency": 6,
+          "smelting_touch": 1,
+          "fortune": 3,
+          "experience": 3
+        }
       },
       {
-        "name": "Healing VIII Splash Potion",
-        "id": "POTION"
+        "name": "Fractured Mithril Pickaxe",
+        "id": "FRACTURED_MITHRIL_PICKAXE",
+        "enchantments": {
+          "efficiency": 5,
+          "fortune": 3,
+          "experience": 3
+        }
       },
       {
         "name": "SkyBlock Menu (Click)",
         "id": "SKYBLOCK_MENU"
-      },
-      {
-        "name": "Decoy",
-        "id": "DUNGEON_DECOY"
-      },
-      {
-        "name": "Unstable Dragon Fragment",
-        "id": "UNSTABLE_FRAGMENT"
-      },
-      {
-        "name": "Karylle's Diary",
-        "id": "DUNGEON_LORE_PAPER"
-      },
-      {
-        "name": "Sharp Zombie Soldier Cutlass",
-        "id": "ZOMBIE_SOLDIER_CUTLASS",
-        "reforge": "sharp",
-        "enchantments": {
-          "luck": 5,
-          "first_strike": 4,
-          "looting": 3,
-          "sharpness": 5,
-          "scavenger": 5,
-          "experience": 3,
-          "vampirism": 5,
-          "life_steal": 3
-        }
-      },
-      {
-        "name": "Festering Fly",
-        "id": "FESTERING_FLY"
-      },
-      {
-        "name": "Titanic Zombie Soldier Helmet",
-        "id": "ZOMBIE_SOLDIER_HELMET",
-        "reforge": "titanic",
-        "enchantments": {
-          "thorns": 3,
-          "protection": 5,
-          "growth": 5
-        }
-      },
-      {
-        "name": "Gentle Dreadlord Sword",
-        "id": "CRYPT_DREADLORD_SWORD",
-        "reforge": "gentle",
-        "enchantments": {
-          "luck": 5,
-          "first_strike": 4,
-          "looting": 3,
-          "sharpness": 5,
-          "scavenger": 5,
-          "experience": 3
-        }
-      },
-      {
-        "name": "Inflatable Jerry",
-        "id": "INFLATABLE_JERRY"
-      },
-      {
-        "name": "Funny Bone",
-        "id": "FUNNY_BONE"
-      },
-      {
-        "name": "Smart Heavy Helmet",
-        "id": "HEAVY_HELMET",
-        "reforge": "smart",
-        "enchantments": {
-          "thorns": 3,
-          "protection": 5,
-          "growth": 5
-        }
-      },
-      {
-        "name": "Odd Dreadlord Sword",
-        "id": "CRYPT_DREADLORD_SWORD",
-        "reforge": "odd_sword",
-        "enchantments": {
-          "luck": 5,
-          "first_strike": 4,
-          "looting": 3,
-          "sharpness": 5,
-          "scavenger": 5,
-          "experience": 3,
-          "vampirism": 5,
-          "life_steal": 3,
-          "giant_killer": 5
-        }
-      },
-      {
-        "name": "Enchanted Bone",
-        "id": "ENCHANTED_BONE"
-      },
-      {
-        "name": "Enchanted Book",
-        "id": "ENCHANTED_BOOK",
-        "enchantments": {
-          "ultimate_combo": 1
-        }
-      },
-      {
-        "name": "Spirit Leap",
-        "id": "SPIRIT_LEAP"
-      },
-      {
-        "name": "Training Weights",
-        "id": "TRAINING_WEIGHTS"
-      },
-      {
-        "name": "Enchanted Rotten Flesh",
-        "id": "ENCHANTED_ROTTEN_FLESH"
-      },
-      {
-        "name": "Heroic Dreadlord Sword",
-        "id": "CRYPT_DREADLORD_SWORD",
-        "reforge": "heroic",
-        "enchantments": {
-          "luck": 5,
-          "first_strike": 4,
-          "looting": 3,
-          "sharpness": 5,
-          "scavenger": 5,
-          "experience": 3
-        }
-      },
-      {
-        "name": "Trap",
-        "id": "DUNGEON_TRAP"
-      },
-      {
-        "name": "Enchanted Book",
-        "id": "ENCHANTED_BOOK",
-        "enchantments": {
-          "ultimate_combo": 1
-        }
-      },
-      {
-        "name": "Enchanted Book",
-        "id": "ENCHANTED_BOOK",
-        "enchantments": {
-          "ultimate_bank": 1
-        }
-      },
-      {
-        "name": "Dungeon III Potion",
-        "id": "POTION"
-      },
-      {
-        "name": "Dungeon Orb",
-        "id": "DUNGEON_STONE"
-      },
-      {
-        "name": "Spirit Leap",
-        "id": "SPIRIT_LEAP"
-      },
-      {
-        "name": "Inflatable Jerry",
-        "id": "INFLATABLE_JERRY"
       }
     ],
     "wardrobe": [],
@@ -506,10 +375,18 @@
       {
         "name": "Scarf's Studies",
         "id": "SCARF_STUDIES"
+      },
+      {
+        "name": "Book of Progression",
+        "id": "BOOK_OF_PROGRESSION"
+      },
+      {
+        "name": "King Talisman",
+        "id": "KING_TALISMAN"
       }
     ]
   },
-  "accessory_power": 95,
+  "accessory_power": 101,
   "hotm": null,
   "member_keys": [
     "accessory_bag_storage",
@@ -538,6 +415,7 @@
     "rift",
     "shards",
     "skill_tree",
+    "slayer",
     "trophy_fish"
   ]
 }
