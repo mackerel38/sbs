@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-09T07:18:40+00:00",
+ "fetched_at": "2026-11-09T07:20:17+00:00",
  "assumptions": {
   "bazaar_tax": 0.0125,
   "auction_tax": 0.035,
@@ -144,11 +144,11 @@
     "EMERALD_RING": 1.0,
     "AVARICIOUS_CHALICE": 1.0
    },
-   "cost_instant_buy": 249479933,
+   "cost_instant_buy": 249479931,
    "cost_buy_orders": 20736519,
    "sell_instant": 279850000,
    "sell_order_or_bin": 279850000,
-   "profit_safe": 30370067,
+   "profit_safe": 30370069,
    "profit_patient": 259113481,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -182,12 +182,12 @@
     "GIANT_FRAGMENT_BOULDER": 8.0,
     "NECRON_BLADE": 1.0
    },
-   "cost_instant_buy": 462996320,
-   "cost_buy_orders": 461557108,
+   "cost_instant_buy": 465896320,
+   "cost_buy_orders": 464455087,
    "sell_instant": 556580807,
    "sell_order_or_bin": 556580807,
-   "profit_safe": 93584487,
-   "profit_patient": 95023700,
+   "profit_safe": 90684487,
+   "profit_patient": 92125721,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 3
@@ -261,11 +261,11 @@
     "ENCHANTED_GOLD_BLOCK": 96.0
    },
    "cost_instant_buy": 37890132,
-   "cost_buy_orders": 34808643,
+   "cost_buy_orders": 34808790,
    "sell_instant": 35667551,
    "sell_order_or_bin": 76469533,
    "profit_safe": -2222581,
-   "profit_patient": 41660890,
+   "profit_patient": 41660743,
    "sell_where": "bazaar",
    "bazaar_daily_sales": 0,
    "auction_listings": null
@@ -311,25 +311,6 @@
    "auction_listings": 1
   },
   {
-   "item": "HYPERION",
-   "name": "Hyperion",
-   "requirement": null,
-   "output_count": 1,
-   "ingredients": {
-    "GIANT_FRAGMENT_LASER": 8.0,
-    "NECRON_BLADE": 1.0
-   },
-   "cost_instant_buy": 474909546,
-   "cost_buy_orders": 472852794,
-   "sell_instant": 501799035,
-   "sell_order_or_bin": 501799035,
-   "profit_safe": 26889489,
-   "profit_patient": 28946241,
-   "sell_where": "auction",
-   "bazaar_daily_sales": null,
-   "auction_listings": 75
-  },
-  {
    "item": "INFERNAL_KUUDRA_CORE",
    "name": "Infernal Kuudra Core",
    "requirement": null,
@@ -348,6 +329,25 @@
    "auction_listings": 4
   },
   {
+   "item": "HYPERION",
+   "name": "Hyperion",
+   "requirement": null,
+   "output_count": 1,
+   "ingredients": {
+    "GIANT_FRAGMENT_LASER": 8.0,
+    "NECRON_BLADE": 1.0
+   },
+   "cost_instant_buy": 477809548,
+   "cost_buy_orders": 475750773,
+   "sell_instant": 501799035,
+   "sell_order_or_bin": 501799035,
+   "profit_safe": 23989487,
+   "profit_patient": 26048262,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 75
+  },
+  {
    "item": "UPGRADE_STONE_SUBZERO",
    "name": "Wisp Upgrade Stone",
    "requirement": null,
@@ -360,31 +360,12 @@
     "SUBZERO_INVERTER": 1.0,
     "ENCHANTED_PACKED_ICE": 64.0
    },
-   "cost_instant_buy": 60327802,
-   "cost_buy_orders": 52569497,
+   "cost_instant_buy": 60327801,
+   "cost_buy_orders": 52568796,
    "sell_instant": 77200000,
    "sell_order_or_bin": 77200000,
-   "profit_safe": 16872198,
-   "profit_patient": 24630503,
-   "sell_where": "auction",
-   "bazaar_daily_sales": null,
-   "auction_listings": 1
-  },
-  {
-   "item": "NECRON_BLADE",
-   "name": "Necron's Blade (Unrefined)",
-   "requirement": null,
-   "output_count": 1,
-   "ingredients": {
-    "WITHER_CATALYST": 24.0,
-    "NECRON_HANDLE": 1.0
-   },
-   "cost_instant_buy": 462582293,
-   "cost_buy_orders": 461179152,
-   "sell_instant": 482500000,
-   "sell_order_or_bin": 482500000,
-   "profit_safe": 19917707,
-   "profit_patient": 21320848,
+   "profit_safe": 16872199,
+   "profit_patient": 24631204,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 1
@@ -422,11 +403,11 @@
     "ENCHANTED_GOLD_BLOCK": 192.0
    },
    "cost_instant_buy": 77060865,
-   "cost_buy_orders": 70765654,
+   "cost_buy_orders": 70765947,
    "sell_instant": 60830004,
    "sell_order_or_bin": 91363097,
    "profit_safe": -16230861,
-   "profit_patient": 20597443,
+   "profit_patient": 20597150,
    "sell_where": "bazaar",
    "bazaar_daily_sales": 0,
    "auction_listings": null
@@ -441,11 +422,11 @@
     "ENCHANTED_SUGAR_CANE": 256.0,
     "SPEEDSTER_LEGGINGS": 1.0
    },
-   "cost_instant_buy": 31308966,
+   "cost_instant_buy": 31308967,
    "cost_buy_orders": 28534723,
    "sell_instant": 48249035,
    "sell_order_or_bin": 48249035,
-   "profit_safe": 16940069,
+   "profit_safe": 16940068,
    "profit_patient": 19714312,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -463,15 +444,34 @@
     "BRIMSTONE_HANDLE": 1.0,
     "LAVA_WATER_ORB": 1.0
    },
-   "cost_instant_buy": 81791918,
-   "cost_buy_orders": 64207666,
+   "cost_instant_buy": 81773628,
+   "cost_buy_orders": 64207818,
    "sell_instant": 83472500,
    "sell_order_or_bin": 83472500,
-   "profit_safe": 1680582,
-   "profit_patient": 19264834,
+   "profit_safe": 1698872,
+   "profit_patient": 19264682,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 12
+  },
+  {
+   "item": "NECRON_BLADE",
+   "name": "Necron's Blade (Unrefined)",
+   "requirement": null,
+   "output_count": 1,
+   "ingredients": {
+    "WITHER_CATALYST": 24.0,
+    "NECRON_HANDLE": 1.0
+   },
+   "cost_instant_buy": 465482293,
+   "cost_buy_orders": 464077132,
+   "sell_instant": 482499893,
+   "sell_order_or_bin": 482499893,
+   "profit_safe": 17017600,
+   "profit_patient": 18422761,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 2
   },
   {
    "item": "GIGANTIC_FISHING_NET",
@@ -485,12 +485,12 @@
     "TURBO_FISHING_NET": 1.0,
     "FLEXBONE": 64.0
    },
-   "cost_instant_buy": 52398730,
-   "cost_buy_orders": 40597216,
+   "cost_instant_buy": 52398741,
+   "cost_buy_orders": 40597056,
    "sell_instant": 58865000,
    "sell_order_or_bin": 58865000,
-   "profit_safe": 6466270,
-   "profit_patient": 18267784,
+   "profit_safe": 6466259,
+   "profit_patient": 18267944,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 4
@@ -504,11 +504,11 @@
     "FEASTFUNGUS": 128.0,
     "ENCHANTED_HUGE_MUSHROOM_2": 96.0
    },
-   "cost_instant_buy": 30985652,
+   "cost_instant_buy": 30985656,
    "cost_buy_orders": 30309702,
    "sell_instant": 48249999,
    "sell_order_or_bin": 48249999,
-   "profit_safe": 17264347,
+   "profit_safe": 17264343,
    "profit_patient": 17940297,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -530,12 +530,12 @@
     "BLUE_RING": 8.0,
     "SEARED_ESCARGOT": 16.0
    },
-   "cost_instant_buy": 33318478,
-   "cost_buy_orders": 26430380,
+   "cost_instant_buy": 33300211,
+   "cost_buy_orders": 26430386,
    "sell_instant": 27876456,
    "sell_order_or_bin": 44185892,
-   "profit_safe": -5442023,
-   "profit_patient": 17755511,
+   "profit_safe": -5423755,
+   "profit_patient": 17755506,
    "sell_where": "bazaar",
    "bazaar_daily_sales": 3,
    "auction_listings": null
@@ -550,11 +550,11 @@
     "HEPHAESTUS_ANVIL": 1.0
    },
    "cost_instant_buy": 142780848,
-   "cost_buy_orders": 136923177,
+   "cost_buy_orders": 136923470,
    "sell_instant": 153815231,
    "sell_order_or_bin": 153815231,
    "profit_safe": 11034383,
-   "profit_patient": 16892055,
+   "profit_patient": 16891761,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 23
@@ -605,12 +605,12 @@
     "GIANT_FRAGMENT_BIGFOOT": 8.0,
     "FELTHORN_REAPER": 1.0
    },
-   "cost_instant_buy": 22079045,
-   "cost_buy_orders": 13454901,
+   "cost_instant_buy": 22079043,
+   "cost_buy_orders": 13449722,
    "sell_instant": 27985000,
    "sell_order_or_bin": 27985000,
-   "profit_safe": 5905955,
-   "profit_patient": 14530099,
+   "profit_safe": 5905957,
+   "profit_patient": 14535278,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 15
@@ -627,11 +627,11 @@
     "MANGROVE_VINE": 1.0
    },
    "cost_instant_buy": 45438172,
-   "cost_buy_orders": 42816922,
+   "cost_buy_orders": 42816920,
    "sell_instant": 56925350,
    "sell_order_or_bin": 56925350,
    "profit_safe": 11487178,
-   "profit_patient": 14108428,
+   "profit_patient": 14108430,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 3
@@ -667,11 +667,11 @@
     "KELVIN_INVERTER": 6.0
    },
    "cost_instant_buy": 17670853,
-   "cost_buy_orders": 15495935,
+   "cost_buy_orders": 15495673,
    "sell_instant": 28949998,
    "sell_order_or_bin": 28949998,
    "profit_safe": 11279145,
-   "profit_patient": 13454063,
+   "profit_patient": 13454326,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 2
@@ -686,12 +686,12 @@
     "SPIRIT_BONE": 5.0,
     "SPIRIT_SWORD": 1.0
    },
-   "cost_instant_buy": 12001601,
-   "cost_buy_orders": 4064969,
+   "cost_instant_buy": 12001600,
+   "cost_buy_orders": 4059790,
    "sell_instant": 17349735,
    "sell_order_or_bin": 17349735,
-   "profit_safe": 5348134,
-   "profit_patient": 13284766,
+   "profit_safe": 5348135,
+   "profit_patient": 13289945,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 3
@@ -706,11 +706,11 @@
     "HEPHAESTUS_ANVIL": 1.0
    },
    "cost_instant_buy": 69910845,
-   "cost_buy_orders": 64053174,
+   "cost_buy_orders": 64053467,
    "sell_instant": 77200000,
    "sell_order_or_bin": 77200000,
    "profit_safe": 7289155,
-   "profit_patient": 13146826,
+   "profit_patient": 13146533,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 2
@@ -748,11 +748,11 @@
     "WATER_ORB": 1.0,
     "UNLUCKY_DOUBLOON": 8.0
    },
-   "cost_instant_buy": 26640706,
+   "cost_instant_buy": 26640693,
    "cost_buy_orders": 19513246,
    "sell_instant": 20639722,
    "sell_order_or_bin": 32469517,
-   "profit_safe": -6000984,
+   "profit_safe": -6000971,
    "profit_patient": 12956271,
    "sell_where": "bazaar",
    "bazaar_daily_sales": 4,
@@ -768,12 +768,12 @@
     "ENCHANTED_BONE_BLOCK": 10.0,
     "SPIRIT_BONE": 5.0
    },
-   "cost_instant_buy": 9391242,
-   "cost_buy_orders": 1466242,
+   "cost_instant_buy": 9391238,
+   "cost_buy_orders": 1461064,
    "sell_instant": 13992498,
    "sell_order_or_bin": 13992498,
-   "profit_safe": 4601256,
-   "profit_patient": 12526256,
+   "profit_safe": 4601260,
+   "profit_patient": 12531434,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 8
@@ -787,12 +787,12 @@
     "THORN_FRAGMENT": 8.0,
     "BONE_BOOMERANG": 1.0
    },
-   "cost_instant_buy": 9481434,
-   "cost_buy_orders": 1535892,
+   "cost_instant_buy": 9481430,
+   "cost_buy_orders": 1530714,
    "sell_instant": 13992500,
    "sell_order_or_bin": 13992500,
-   "profit_safe": 4511066,
-   "profit_patient": 12456608,
+   "profit_safe": 4511070,
+   "profit_patient": 12461786,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 14
@@ -807,11 +807,11 @@
     "ECTOPLASM": 40.0,
     "PUMPKIN_BOMB": 64.0
    },
-   "cost_instant_buy": 20377711,
+   "cost_instant_buy": 20377714,
    "cost_buy_orders": 16722314,
    "sell_instant": 28949999,
    "sell_order_or_bin": 28949999,
-   "profit_safe": 8572288,
+   "profit_safe": 8572285,
    "profit_patient": 12227685,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -827,11 +827,11 @@
     "ENCHANTED_EYE_OF_ENDER": 64.0
    },
    "cost_instant_buy": 50291029,
-   "cost_buy_orders": 50109330,
+   "cost_buy_orders": 50109223,
    "sell_instant": 39500000,
    "sell_order_or_bin": 62092492,
    "profit_safe": -10791029,
-   "profit_patient": 11983162,
+   "profit_patient": 11983269,
    "sell_where": "bazaar",
    "bazaar_daily_sales": 3,
    "auction_listings": null
@@ -849,11 +849,11 @@
     "MYTHOS_FRAGMENT": 32.0
    },
    "cost_instant_buy": 67780848,
-   "cost_buy_orders": 61923177,
+   "cost_buy_orders": 61923470,
    "sell_instant": 73822499,
    "sell_order_or_bin": 73822499,
    "profit_safe": 6041651,
-   "profit_patient": 11899322,
+   "profit_patient": 11899029,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 6
@@ -888,11 +888,11 @@
     "FINWAVE_GLOVES": 1.0,
     "LAVA_SHELL": 3.0
    },
-   "cost_instant_buy": 53588554,
+   "cost_instant_buy": 53586747,
    "cost_buy_orders": 47172177,
    "sell_instant": 57900000,
    "sell_order_or_bin": 57900000,
-   "profit_safe": 4311446,
+   "profit_safe": 4313253,
    "profit_patient": 10727823,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -908,11 +908,11 @@
     "HEPHAESTUS_ANVIL": 1.0
    },
    "cost_instant_buy": 69370848,
-   "cost_buy_orders": 63513177,
+   "cost_buy_orders": 63513470,
    "sell_instant": 73933473,
    "sell_order_or_bin": 73933473,
    "profit_safe": 4562625,
-   "profit_patient": 10420296,
+   "profit_patient": 10420003,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 5
@@ -927,14 +927,32 @@
     "WITHER_ARTIFACT": 1.0
    },
    "cost_instant_buy": 69427431,
-   "cost_buy_orders": 68959717,
+   "cost_buy_orders": 68959044,
    "sell_instant": 79214434,
    "sell_order_or_bin": 79214434,
    "profit_safe": 9787003,
-   "profit_patient": 10254716,
+   "profit_patient": 10255390,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 8
+  },
+  {
+   "item": "TREASURE_ARTIFACT",
+   "name": "Treasure Artifact",
+   "requirement": null,
+   "output_count": 1,
+   "ingredients": {
+    "TREASURE_RING": 9.0
+   },
+   "cost_instant_buy": 72000000,
+   "cost_buy_orders": 72000000,
+   "sell_instant": 81928500,
+   "sell_order_or_bin": 81928500,
+   "profit_safe": 9928500,
+   "profit_patient": 9928500,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 2
   },
   {
    "item": "ETERNAL_HOOF",
@@ -965,11 +983,11 @@
     "ENCHANTED_GOLD_BLOCK": 1.0,
     "LOTUS_WATER_ORB": 1.0
    },
-   "cost_instant_buy": 29404124,
+   "cost_instant_buy": 29404112,
    "cost_buy_orders": 22114341,
    "sell_instant": 31844999,
    "sell_order_or_bin": 31844999,
-   "profit_safe": 2440875,
+   "profit_safe": 2440887,
    "profit_patient": 9730658,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -1021,11 +1039,11 @@
     "PERFECT_CHESTPLATE_7": 1.0
    },
    "cost_instant_buy": 5640478,
-   "cost_buy_orders": 5621368,
+   "cost_buy_orders": 5621367,
    "sell_instant": 14909250,
    "sell_order_or_bin": 14909250,
    "profit_safe": 9268772,
-   "profit_patient": 9287882,
+   "profit_patient": 9287883,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 2
@@ -1058,11 +1076,11 @@
     "LAVA_SHELL": 6.0,
     "FINWAVE_BELT": 1.0
    },
-   "cost_instant_buy": 53577365,
+   "cost_instant_buy": 53573751,
    "cost_buy_orders": 46942178,
    "sell_instant": 55680500,
    "sell_order_or_bin": 55680500,
-   "profit_safe": 2103135,
+   "profit_safe": 2106749,
    "profit_patient": 8738322,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -1080,11 +1098,11 @@
     "TESSELLATED_ENDER_PEARL": 1.0
    },
    "cost_instant_buy": 16314338,
-   "cost_buy_orders": 14967728,
+   "cost_buy_orders": 14967745,
    "sell_instant": 23160000,
    "sell_order_or_bin": 23160000,
    "profit_safe": 6845662,
-   "profit_patient": 8192272,
+   "profit_patient": 8192255,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 5
@@ -1102,11 +1120,11 @@
     "GREEN_GIFT": 16.0,
     "BLUE_ICE_HUNK": 32.0
    },
-   "cost_instant_buy": 8742278,
+   "cost_instant_buy": 8742459,
    "cost_buy_orders": 7810229,
    "sell_instant": 6240012,
    "sell_order_or_bin": 15800000,
-   "profit_safe": -2502266,
+   "profit_safe": -2502447,
    "profit_patient": 7989771,
    "sell_where": "bazaar",
    "bazaar_daily_sales": 1,
@@ -1143,11 +1161,11 @@
     "WINTER_FRAGMENT": 8.0,
     "YETI_SWORD": 1.0
    },
-   "cost_instant_buy": 11065727,
+   "cost_instant_buy": 11061220,
    "cost_buy_orders": 7933451,
    "sell_instant": 15826000,
    "sell_order_or_bin": 15826000,
-   "profit_safe": 4760273,
+   "profit_safe": 4764780,
    "profit_patient": 7892549,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -1163,12 +1181,12 @@
     "PLASMA": 64.0,
     "ANGUISH_RING": 1.0
    },
-   "cost_instant_buy": 56390339,
-   "cost_buy_orders": 51492796,
+   "cost_instant_buy": 56386569,
+   "cost_buy_orders": 51492829,
    "sell_instant": 59293460,
    "sell_order_or_bin": 59293460,
-   "profit_safe": 2903121,
-   "profit_patient": 7800664,
+   "profit_safe": 2906891,
+   "profit_patient": 7800631,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 17
@@ -1181,11 +1199,11 @@
    "ingredients": {
     "THUNDER_SHARDS": 4.0
    },
-   "cost_instant_buy": 209312,
+   "cost_instant_buy": 209311,
    "cost_buy_orders": 186521,
    "sell_instant": 7913000,
    "sell_order_or_bin": 7913000,
-   "profit_safe": 7703688,
+   "profit_safe": 7703689,
    "profit_patient": 7726479,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -1207,12 +1225,12 @@
     "RUSTY_COIN": 64.0,
     "POISON_SAMPLE": 1.0
    },
-   "cost_instant_buy": 6731404,
-   "cost_buy_orders": 5467170,
+   "cost_instant_buy": 6731342,
+   "cost_buy_orders": 5467171,
    "sell_instant": 4817569,
    "sell_order_or_bin": 13190879,
-   "profit_safe": -1913835,
-   "profit_patient": 7723710,
+   "profit_safe": -1913773,
+   "profit_patient": 7723709,
    "sell_where": "bazaar",
    "bazaar_daily_sales": 6,
    "auction_listings": null
@@ -1249,11 +1267,11 @@
     "BLUETOOTH_RING": 1.0
    },
    "cost_instant_buy": 36827488,
-   "cost_buy_orders": 31960157,
+   "cost_buy_orders": 31960153,
    "sell_instant": 39565000,
    "sell_order_or_bin": 39565000,
    "profit_safe": 2737512,
-   "profit_patient": 7604843,
+   "profit_patient": 7604847,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 9
@@ -1307,12 +1325,12 @@
     "PLASMA": 32.0,
     "ANGUISH_TALISMAN": 1.0
    },
-   "cost_instant_buy": 24167288,
-   "cost_buy_orders": 22068341,
+   "cost_instant_buy": 24165672,
+   "cost_buy_orders": 22068355,
    "sell_instant": 28949035,
    "sell_order_or_bin": 28949035,
-   "profit_safe": 4781747,
-   "profit_patient": 6880694,
+   "profit_safe": 4783363,
+   "profit_patient": 6880680,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 16
@@ -1383,12 +1401,12 @@
     "GIANT_FRAGMENT_DIAMOND": 8.0,
     "WITHER_HELMET": 1.0
    },
-   "cost_instant_buy": 5053079,
-   "cost_buy_orders": 4006424,
+   "cost_instant_buy": 5053082,
+   "cost_buy_orders": 4009112,
    "sell_instant": 10615000,
    "sell_order_or_bin": 10615000,
-   "profit_safe": 5561921,
-   "profit_patient": 6608576,
+   "profit_safe": 5561918,
+   "profit_patient": 6605888,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 41
@@ -1404,12 +1422,12 @@
     "TARANTULA_BOOTS": 1.0,
     "TARANTULA_SILK": 64.0
    },
-   "cost_instant_buy": 15489920,
-   "cost_buy_orders": 14745120,
+   "cost_instant_buy": 15489075,
+   "cost_buy_orders": 14745558,
    "sell_instant": 21230000,
    "sell_order_or_bin": 21230000,
-   "profit_safe": 5740080,
-   "profit_patient": 6484880,
+   "profit_safe": 5740925,
+   "profit_patient": 6484442,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 10
@@ -1483,11 +1501,11 @@
     "DRACONIC_RING": 1.0
    },
    "cost_instant_buy": 46959120,
-   "cost_buy_orders": 43253134,
+   "cost_buy_orders": 43253177,
    "sell_instant": 49214035,
    "sell_order_or_bin": 49214035,
    "profit_safe": 2254915,
-   "profit_patient": 5960901,
+   "profit_patient": 5960858,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 10
@@ -1501,11 +1519,11 @@
     "GIANT_FRAGMENT_LASER": 8.0,
     "WITHER_HELMET": 1.0
    },
-   "cost_instant_buy": 13127254,
+   "cost_instant_buy": 13127256,
    "cost_buy_orders": 12473642,
    "sell_instant": 18228850,
    "sell_order_or_bin": 18228850,
-   "profit_safe": 5101596,
+   "profit_safe": 5101594,
    "profit_patient": 5755208,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -1522,11 +1540,11 @@
     "DIVER_FRAGMENT": 2.0,
     "DIVER_CHESTPLATE": 1.0
    },
-   "cost_instant_buy": 9213758,
+   "cost_instant_buy": 9213759,
    "cost_buy_orders": 7657491,
    "sell_instant": 13402692,
    "sell_order_or_bin": 13402692,
-   "profit_safe": 4188934,
+   "profit_safe": 4188933,
    "profit_patient": 5745201,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -1543,11 +1561,11 @@
     "DIVER_FRAGMENT": 2.0,
     "DIVER_LEGGINGS": 1.0
    },
-   "cost_instant_buy": 9213758,
+   "cost_instant_buy": 9213759,
    "cost_buy_orders": 7657491,
    "sell_instant": 13402692,
    "sell_order_or_bin": 13402692,
-   "profit_safe": 4188934,
+   "profit_safe": 4188933,
    "profit_patient": 5745201,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -1564,11 +1582,11 @@
     "SCORPION_FOIL": 1.0
    },
    "cost_instant_buy": 112044273,
-   "cost_buy_orders": 110082339,
+   "cost_buy_orders": 110084090,
    "sell_instant": 115799998,
    "sell_order_or_bin": 115799998,
    "profit_safe": 3755725,
-   "profit_patient": 5717659,
+   "profit_patient": 5715909,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 47
@@ -1583,11 +1601,11 @@
     "INFERNO_FUEL_BLOCK": 2.0,
     "HEAVY_GABAGOOL": 1.0
    },
-   "cost_instant_buy": 651865,
+   "cost_instant_buy": 651862,
    "cost_buy_orders": 574238,
    "sell_instant": 6272500,
    "sell_order_or_bin": 6272500,
-   "profit_safe": 5620635,
+   "profit_safe": 5620638,
    "profit_patient": 5698262,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -1623,11 +1641,11 @@
     "DIVER_FRAGMENT": 2.0,
     "DIVER_BOOTS": 1.0
    },
-   "cost_instant_buy": 9213758,
+   "cost_instant_buy": 9213759,
    "cost_buy_orders": 7657491,
    "sell_instant": 13187690,
    "sell_order_or_bin": 13187690,
-   "profit_safe": 3973932,
+   "profit_safe": 3973931,
    "profit_patient": 5530199,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -1683,12 +1701,12 @@
     "TARANTULA_LEGGINGS": 1.0,
     "TARANTULA_SILK": 64.0
    },
-   "cost_instant_buy": 14809920,
-   "cost_buy_orders": 14065120,
+   "cost_instant_buy": 14809075,
+   "cost_buy_orders": 14065558,
    "sell_instant": 19299999,
    "sell_order_or_bin": 19299999,
-   "profit_safe": 4490079,
-   "profit_patient": 5234879,
+   "profit_safe": 4490924,
+   "profit_patient": 5234441,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 11
@@ -1703,11 +1721,11 @@
     "BONE_NECKLACE": 1.0
    },
    "cost_instant_buy": 6126542,
-   "cost_buy_orders": 2638159,
+   "cost_buy_orders": 2636143,
    "sell_instant": 7816500,
    "sell_order_or_bin": 7816500,
    "profit_safe": 1689958,
-   "profit_patient": 5178341,
+   "profit_patient": 5180357,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 29
@@ -1720,12 +1738,12 @@
    "ingredients": {
     "MAGMA_LORD_FRAGMENT": 7.0
    },
-   "cost_instant_buy": 31534037,
-   "cost_buy_orders": 27117539,
+   "cost_instant_buy": 31530905,
+   "cost_buy_orders": 27118318,
    "sell_instant": 32231000,
    "sell_order_or_bin": 32231000,
-   "profit_safe": 696963,
-   "profit_patient": 5113461,
+   "profit_safe": 700095,
+   "profit_patient": 5112682,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 27
@@ -1741,14 +1759,34 @@
     "SPIRIT_WING": 1.0
    },
    "cost_instant_buy": 6036350,
-   "cost_buy_orders": 2568509,
+   "cost_buy_orders": 2566493,
    "sell_instant": 7622535,
    "sell_order_or_bin": 7622535,
    "profit_safe": 1586185,
-   "profit_patient": 5054026,
+   "profit_patient": 5056042,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 9
+  },
+  {
+   "item": "SQUASH_BOOTS",
+   "name": "Squash Boots",
+   "requirement": null,
+   "output_count": 1,
+   "ingredients": {
+    "SQUASH": 20.0,
+    "POLISHED_PUMPKIN": 12.0,
+    "CROPIE_BOOTS": 1.0
+   },
+   "cost_instant_buy": 7600301,
+   "cost_buy_orders": 7494415,
+   "sell_instant": 12545000,
+   "sell_order_or_bin": 12545000,
+   "profit_safe": 4944699,
+   "profit_patient": 5050585,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 6
   },
   {
    "item": "GRIFFIN_UPGRADE_STONE_RARE",
@@ -1761,7 +1799,7 @@
     "ANCIENT_CLAW": 64.0,
     "BASE_GRIFFIN_UPGRADE_STONE": 1.0
    },
-   "cost_instant_buy": 4260543,
+   "cost_instant_buy": 4260544,
    "cost_buy_orders": 3885150,
    "sell_instant": 2976164,
    "sell_order_or_bin": 8885525,
@@ -1789,26 +1827,6 @@
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 51
-  },
-  {
-   "item": "MANTICORE_CLAW",
-   "name": "Manticore Claw",
-   "requirement": null,
-   "output_count": 1,
-   "ingredients": {
-    "ENCHANTED_ANCIENT_CLAW": 320.0,
-    "MANTI_CORE": 1.0,
-    "ENCHANTED_GOLD_BLOCK": 64.0
-   },
-   "cost_instant_buy": 60996726,
-   "cost_buy_orders": 59751818,
-   "sell_instant": 64655000,
-   "sell_order_or_bin": 64655000,
-   "profit_safe": 3658274,
-   "profit_patient": 4903182,
-   "sell_where": "auction",
-   "bazaar_daily_sales": null,
-   "auction_listings": 8
   },
   {
    "item": "RAZOR_SHARP_SHARK_TOOTH_NECKLACE",
@@ -1840,11 +1858,11 @@
     "DIVER_FRAGMENT": 2.0,
     "DIVER_HELMET": 1.0
    },
-   "cost_instant_buy": 9213758,
+   "cost_instant_buy": 9213759,
    "cost_buy_orders": 7657491,
    "sell_instant": 12437692,
    "sell_order_or_bin": 12437692,
-   "profit_safe": 3223934,
+   "profit_safe": 3223933,
    "profit_patient": 4780201,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -1880,11 +1898,11 @@
     "INFERNO_FUEL_BLOCK": 2.0,
     "FUEL_GABAGOOL": 1.0
    },
-   "cost_instant_buy": 285410,
+   "cost_instant_buy": 285407,
    "cost_buy_orders": 259815,
    "sell_instant": 4825000,
    "sell_order_or_bin": 4825000,
-   "profit_safe": 4539590,
+   "profit_safe": 4539593,
    "profit_patient": 4565185,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -1938,11 +1956,11 @@
     "HOLY_FRAGMENT": 70.0
    },
    "cost_instant_buy": 745640,
-   "cost_buy_orders": 493945,
+   "cost_buy_orders": 493937,
    "sell_instant": 4825000,
    "sell_order_or_bin": 4825000,
    "profit_safe": 4079360,
-   "profit_patient": 4331055,
+   "profit_patient": 4331063,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 1
@@ -1957,12 +1975,12 @@
     "APEX_PRAEDATOR": 1.0,
     "STRETCHING_STICKS": 64.0
    },
-   "cost_instant_buy": 3191018,
-   "cost_buy_orders": 305611,
+   "cost_instant_buy": 3191016,
+   "cost_buy_orders": 307583,
    "sell_instant": 4631990,
    "sell_order_or_bin": 4631990,
-   "profit_safe": 1440972,
-   "profit_patient": 4326379,
+   "profit_safe": 1440974,
+   "profit_patient": 4324407,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 47
@@ -1997,12 +2015,12 @@
     "SQUASH_BOOTS": 1.0,
     "ENCHANTED_HUGE_MUSHROOM_1": 16.0
    },
-   "cost_instant_buy": 20309611,
-   "cost_buy_orders": 19971045,
+   "cost_instant_buy": 20309612,
+   "cost_buy_orders": 19971047,
    "sell_instant": 24125000,
    "sell_order_or_bin": 24125000,
-   "profit_safe": 3815389,
-   "profit_patient": 4153955,
+   "profit_safe": 3815388,
+   "profit_patient": 4153953,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 11
@@ -2016,11 +2034,11 @@
     "LAVA_SHELL": 8.0,
     "GAZING_PEARL": 5.0
    },
-   "cost_instant_buy": 2328827,
+   "cost_instant_buy": 2324008,
    "cost_buy_orders": 43406,
    "sell_instant": 4149500,
    "sell_order_or_bin": 4149500,
-   "profit_safe": 1820673,
+   "profit_safe": 1825492,
    "profit_patient": 4106094,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -2055,11 +2073,11 @@
     "ABSOLUTE_ENDER_PEARL": 32.0
    },
    "cost_instant_buy": 6094285,
-   "cost_buy_orders": 5493608,
+   "cost_buy_orders": 5493613,
    "sell_instant": 9553500,
    "sell_order_or_bin": 9553500,
    "profit_safe": 3459215,
-   "profit_patient": 4059892,
+   "profit_patient": 4059887,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 3
@@ -2096,14 +2114,34 @@
     "ABSOLUTE_ENDER_PEARL": 48.0
    },
    "cost_instant_buy": 8191347,
-   "cost_buy_orders": 7399203,
+   "cost_buy_orders": 7399211,
    "sell_instant": 11338750,
    "sell_order_or_bin": 11338750,
    "profit_safe": 3147403,
-   "profit_patient": 3939547,
+   "profit_patient": 3939539,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 6
+  },
+  {
+   "item": "MANTICORE_CLAW",
+   "name": "Manticore Claw",
+   "requirement": null,
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_ANCIENT_CLAW": 320.0,
+    "MANTI_CORE": 1.0,
+    "ENCHANTED_GOLD_BLOCK": 64.0
+   },
+   "cost_instant_buy": 60996727,
+   "cost_buy_orders": 59751818,
+   "sell_instant": 63690000,
+   "sell_order_or_bin": 63690000,
+   "profit_safe": 2693273,
+   "profit_patient": 3938182,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 9
   },
   {
    "item": "NULL_BLADE",
@@ -2115,12 +2153,12 @@
     "NULL_EDGE": 3.0,
     "ENCHANTED_QUARTZ_BLOCK": 64.0
    },
-   "cost_instant_buy": 16385173,
-   "cost_buy_orders": 14539589,
+   "cost_instant_buy": 16378386,
+   "cost_buy_orders": 14537688,
    "sell_instant": 16370760,
    "sell_order_or_bin": 18268742,
-   "profit_safe": -14413,
-   "profit_patient": 3729152,
+   "profit_safe": -7625,
+   "profit_patient": 3731053,
    "sell_where": "bazaar",
    "bazaar_daily_sales": 37,
    "auction_listings": null
@@ -2135,12 +2173,12 @@
     "ENCHANTED_BAKED_POTATO": 64.0,
     "BLOOD_GOD_CREST": 1.0
    },
-   "cost_instant_buy": 11524842,
-   "cost_buy_orders": 11253019,
+   "cost_instant_buy": 11524841,
+   "cost_buy_orders": 11252784,
    "sell_instant": 14957499,
    "sell_order_or_bin": 14957499,
-   "profit_safe": 3432657,
-   "profit_patient": 3704480,
+   "profit_safe": 3432658,
+   "profit_patient": 3704715,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 12
@@ -2153,12 +2191,12 @@
    "ingredients": {
     "MAGMA_LORD_FRAGMENT": 5.0
    },
-   "cost_instant_buy": 22524312,
-   "cost_buy_orders": 19369671,
+   "cost_instant_buy": 22522075,
+   "cost_buy_orders": 19370227,
    "sell_instant": 23063500,
    "sell_order_or_bin": 23063500,
-   "profit_safe": 539188,
-   "profit_patient": 3693829,
+   "profit_safe": 541425,
+   "profit_patient": 3693273,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 15
@@ -2173,11 +2211,11 @@
     "SINGED_POWDER": 8.0,
     "ENCHANTED_CLAY_BLOCK": 1.0
    },
-   "cost_instant_buy": 13835000,
+   "cost_instant_buy": 13834999,
    "cost_buy_orders": 11275217,
    "sell_instant": 14957499,
    "sell_order_or_bin": 14957499,
-   "profit_safe": 1122499,
+   "profit_safe": 1122500,
    "profit_patient": 3682282,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -2193,11 +2231,11 @@
     "ENCHANTED_IRON_BLOCK": 32.0,
     "HILT_OF_TRUE_ICE": 1.0
    },
-   "cost_instant_buy": 9196820,
+   "cost_instant_buy": 9192314,
    "cost_buy_orders": 7006708,
    "sell_instant": 10615000,
    "sell_order_or_bin": 10615000,
-   "profit_safe": 1418180,
+   "profit_safe": 1422686,
    "profit_patient": 3608292,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -2251,11 +2289,11 @@
     "GREAT_WHITE_TOOTH_MEAL": 2.0,
     "ICHTHYIC_BELT": 1.0
    },
-   "cost_instant_buy": 37375759,
+   "cost_instant_buy": 37375760,
    "cost_buy_orders": 35111952,
    "sell_instant": 38599999,
    "sell_order_or_bin": 38599999,
-   "profit_safe": 1224240,
+   "profit_safe": 1224239,
    "profit_patient": 3488047,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -2290,12 +2328,12 @@
     "CURSUS_FERAE": 1.0,
     "STRETCHING_STICKS": 32.0
    },
-   "cost_instant_buy": 1429706,
-   "cost_buy_orders": 295176,
+   "cost_instant_buy": 1429705,
+   "cost_buy_orders": 295833,
    "sell_instant": 3749990,
    "sell_order_or_bin": 3749990,
-   "profit_safe": 2320284,
-   "profit_patient": 3454814,
+   "profit_safe": 2320285,
+   "profit_patient": 3454157,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 7
@@ -2309,11 +2347,11 @@
     "GIANT_FRAGMENT_LASER": 8.0,
     "WITHER_LEGGINGS": 1.0
    },
-   "cost_instant_buy": 16127254,
+   "cost_instant_buy": 16127256,
    "cost_buy_orders": 15473642,
    "sell_instant": 18875400,
    "sell_order_or_bin": 18875400,
-   "profit_safe": 2748146,
+   "profit_safe": 2748144,
    "profit_patient": 3401758,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -2367,11 +2405,11 @@
     "SOUL_STRING": 256.0
    },
    "cost_instant_buy": 27431044,
-   "cost_buy_orders": 25002532,
+   "cost_buy_orders": 25002679,
    "sell_instant": 25169024,
    "sell_order_or_bin": 28247989,
    "profit_safe": -2262020,
-   "profit_patient": 3245456,
+   "profit_patient": 3245310,
    "sell_where": "bazaar",
    "bazaar_daily_sales": 19,
    "auction_listings": null
@@ -2406,11 +2444,11 @@
     "BASIC_FISHING_NET": 1.0,
     "STURDY_BONE": 32.0
    },
-   "cost_instant_buy": 1502876,
+   "cost_instant_buy": 1502877,
    "cost_buy_orders": 1185412,
    "sell_instant": 4342500,
    "sell_order_or_bin": 4342500,
-   "profit_safe": 2839624,
+   "profit_safe": 2839623,
    "profit_patient": 3157088,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -2425,12 +2463,12 @@
     "SORROW": 16.0,
     "PLASMA": 16.0
    },
-   "cost_instant_buy": 8055763,
-   "cost_buy_orders": 7356114,
+   "cost_instant_buy": 8055224,
+   "cost_buy_orders": 7356118,
    "sell_instant": 10506918,
    "sell_order_or_bin": 10506918,
-   "profit_safe": 2451155,
-   "profit_patient": 3150804,
+   "profit_safe": 2451694,
+   "profit_patient": 3150800,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 8
@@ -2444,35 +2482,15 @@
     "ENCHANTED_SUGAR": 512.0,
     "CANE_KNOT": 32.0
    },
-   "cost_instant_buy": 4653264,
-   "cost_buy_orders": 3092275,
+   "cost_instant_buy": 4653269,
+   "cost_buy_orders": 3092276,
    "sell_instant": 3027320,
    "sell_order_or_bin": 6221250,
-   "profit_safe": -1625944,
-   "profit_patient": 3128975,
+   "profit_safe": -1625949,
+   "profit_patient": 3128974,
    "sell_where": "bazaar",
    "bazaar_daily_sales": 12,
    "auction_listings": null
-  },
-  {
-   "item": "SQUASH_BOOTS",
-   "name": "Squash Boots",
-   "requirement": null,
-   "output_count": 1,
-   "ingredients": {
-    "SQUASH": 20.0,
-    "POLISHED_PUMPKIN": 12.0,
-    "CROPIE_BOOTS": 1.0
-   },
-   "cost_instant_buy": 7600301,
-   "cost_buy_orders": 7494415,
-   "sell_instant": 10615000,
-   "sell_order_or_bin": 10615000,
-   "profit_safe": 3014699,
-   "profit_patient": 3120585,
-   "sell_where": "auction",
-   "bazaar_daily_sales": null,
-   "auction_listings": 7
   },
   {
    "item": "POWER_WITHER_LEGGINGS",
@@ -2483,15 +2501,15 @@
     "GIANT_FRAGMENT_DIAMOND": 8.0,
     "WITHER_LEGGINGS": 1.0
    },
-   "cost_instant_buy": 8053079,
-   "cost_buy_orders": 7006424,
+   "cost_instant_buy": 8053082,
+   "cost_buy_orders": 7009112,
    "sell_instant": 10122850,
    "sell_order_or_bin": 10122850,
-   "profit_safe": 2069771,
-   "profit_patient": 3116426,
+   "profit_safe": 2069768,
+   "profit_patient": 3113738,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
-   "auction_listings": 107
+   "auction_listings": 106
   },
   {
    "item": "FIRE_VEIL_WAND",
@@ -2503,11 +2521,11 @@
     "SPELL_POWDER": 10.0,
     "STICK": 1.0
    },
-   "cost_instant_buy": 4988906,
+   "cost_instant_buy": 4988914,
    "cost_buy_orders": 3673697,
    "sell_instant": 6755000,
    "sell_order_or_bin": 6755000,
-   "profit_safe": 1766094,
+   "profit_safe": 1766086,
    "profit_patient": 3081303,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -2682,12 +2700,12 @@
     "MEDIUM_FISHING_NET": 1.0,
     "STURDY_BONE": 128.0
    },
-   "cost_instant_buy": 7450381,
-   "cost_buy_orders": 5888507,
+   "cost_instant_buy": 7450385,
+   "cost_buy_orders": 5888508,
    "sell_instant": 8665239,
    "sell_order_or_bin": 8665239,
-   "profit_safe": 1214858,
-   "profit_patient": 2776732,
+   "profit_safe": 1214854,
+   "profit_patient": 2776731,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 19
@@ -2742,14 +2760,35 @@
     "KELVIN_INVERTER": 1.0
    },
    "cost_instant_buy": 2886822,
-   "cost_buy_orders": 2538944,
+   "cost_buy_orders": 2538900,
    "sell_instant": 5210999,
    "sell_order_or_bin": 5210999,
    "profit_safe": 2324177,
-   "profit_patient": 2672055,
+   "profit_patient": 2672099,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 3
+  },
+  {
+   "item": "HOTSPOT_RADAR",
+   "name": "Hotspot Radar",
+   "requirement": null,
+   "output_count": 1,
+   "ingredients": {
+    "BRONZE_BOWL": 2.0,
+    "REDSTONE": 2.0,
+    "BROKEN_RADAR": 1.0,
+    "IRON_INGOT": 3.0
+   },
+   "cost_instant_buy": 703515,
+   "cost_buy_orders": 619123,
+   "sell_instant": 3281000,
+   "sell_order_or_bin": 3281000,
+   "profit_safe": 2577485,
+   "profit_patient": 2661877,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 8
   },
   {
    "item": "STARRED_ADAPTIVE_LEGGINGS",
@@ -2778,12 +2817,12 @@
    "ingredients": {
     "MAGMA_LORD_FRAGMENT": 8.0
    },
-   "cost_instant_buy": 36038900,
-   "cost_buy_orders": 30991473,
+   "cost_instant_buy": 36035320,
+   "cost_buy_orders": 30992364,
    "sell_instant": 33582000,
    "sell_order_or_bin": 33582000,
-   "profit_safe": -2456900,
-   "profit_patient": 2590527,
+   "profit_safe": -2453320,
+   "profit_patient": 2589636,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 23
@@ -2836,11 +2875,11 @@
     "BROKEN_RADAR": 8.0,
     "INK_SPLAT": 16.0
    },
-   "cost_instant_buy": 6338811,
+   "cost_instant_buy": 6338810,
    "cost_buy_orders": 5750191,
    "sell_instant": 8299000,
    "sell_order_or_bin": 8299000,
-   "profit_safe": 1960189,
+   "profit_safe": 1960190,
    "profit_patient": 2548809,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -2875,11 +2914,11 @@
     "GIANT_FRAGMENT_LASER": 8.0,
     "WITHER_CHESTPLATE": 1.0
    },
-   "cost_instant_buy": 20827154,
+   "cost_instant_buy": 20827156,
    "cost_buy_orders": 20173542,
    "sell_instant": 22675570,
    "sell_order_or_bin": 22675570,
-   "profit_safe": 1848416,
+   "profit_safe": 1848414,
    "profit_patient": 2502028,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -2932,11 +2971,11 @@
     "ENCHANTED_TENDER_WOOD": 4.0,
     "MEDIUM_FISH_BOWL": 1.0
    },
-   "cost_instant_buy": 6250140,
+   "cost_instant_buy": 6250139,
    "cost_buy_orders": 5791827,
    "sell_instant": 8202498,
    "sell_order_or_bin": 8202498,
-   "profit_safe": 1952358,
+   "profit_safe": 1952359,
    "profit_patient": 2410671,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -2952,11 +2991,11 @@
     "FLOWER_OF_TRUTH": 1.0
    },
    "cost_instant_buy": 16352622,
-   "cost_buy_orders": 14646777,
+   "cost_buy_orders": 14646779,
    "sell_instant": 17041900,
    "sell_order_or_bin": 17041900,
    "profit_safe": 689278,
-   "profit_patient": 2395123,
+   "profit_patient": 2395121,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 34
@@ -2971,11 +3010,11 @@
     "SUMMONING_EYE": 1.0,
     "NULL_OVOID": 13.0
    },
-   "cost_instant_buy": 2636480,
+   "cost_instant_buy": 2632253,
    "cost_buy_orders": 2427471,
    "sell_instant": 4800875,
    "sell_order_or_bin": 4800875,
-   "profit_safe": 2164395,
+   "profit_safe": 2168622,
    "profit_patient": 2373404,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -2990,11 +3029,11 @@
     "WITHER_CATALYST": 24.0
    },
    "cost_instant_buy": 25582293,
-   "cost_buy_orders": 24179152,
+   "cost_buy_orders": 24177132,
    "sell_instant": 26537500,
    "sell_order_or_bin": 26537500,
    "profit_safe": 955207,
-   "profit_patient": 2358348,
+   "profit_patient": 2360368,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 64
@@ -3027,15 +3066,15 @@
     "GLOSSY_GEMSTONE": 16.0,
     "MINERAL_CHESTPLATE": 1.0
    },
-   "cost_instant_buy": 26585297,
+   "cost_instant_buy": 26586517,
    "cost_buy_orders": 25720564,
    "sell_instant": 27984991,
    "sell_order_or_bin": 27984991,
-   "profit_safe": 1399694,
+   "profit_safe": 1398475,
    "profit_patient": 2264427,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
-   "auction_listings": 15
+   "auction_listings": 14
   },
   {
    "item": "MAGMA_LORD_BOOTS",
@@ -3045,12 +3084,12 @@
    "ingredients": {
     "MAGMA_LORD_FRAGMENT": 4.0
    },
-   "cost_instant_buy": 18019450,
-   "cost_buy_orders": 15495736,
+   "cost_instant_buy": 18017660,
+   "cost_buy_orders": 15496182,
    "sell_instant": 17755999,
    "sell_order_or_bin": 17755999,
-   "profit_safe": -263451,
-   "profit_patient": 2260263,
+   "profit_safe": -261661,
+   "profit_patient": 2259817,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 32
@@ -3105,11 +3144,11 @@
     "ABSOLUTE_ENDER_PEARL": 32.0
    },
    "cost_instant_buy": 4424179,
-   "cost_buy_orders": 3956832,
+   "cost_buy_orders": 3956837,
    "sell_instant": 6175998,
    "sell_order_or_bin": 6175998,
    "profit_safe": 1751819,
-   "profit_patient": 2219166,
+   "profit_patient": 2219161,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 18
@@ -3181,15 +3220,15 @@
     "GLOSSY_GEMSTONE": 16.0,
     "MINERAL_BOOTS": 1.0
    },
-   "cost_instant_buy": 26170178,
+   "cost_instant_buy": 26171397,
    "cost_buy_orders": 25323101,
    "sell_instant": 27406000,
    "sell_order_or_bin": 27406000,
-   "profit_safe": 1235822,
+   "profit_safe": 1234603,
    "profit_patient": 2082899,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
-   "auction_listings": 16
+   "auction_listings": 15
   },
   {
    "item": "SORROW_LEGGINGS",
@@ -3199,15 +3238,15 @@
    "ingredients": {
     "SORROW": 21.0
    },
-   "cost_instant_buy": 4259931,
-   "cost_buy_orders": 3675023,
+   "cost_instant_buy": 4259224,
+   "cost_buy_orders": 3675029,
    "sell_instant": 5683849,
    "sell_order_or_bin": 5683849,
-   "profit_safe": 1423918,
-   "profit_patient": 2008826,
+   "profit_safe": 1424625,
+   "profit_patient": 2008820,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
-   "auction_listings": 39
+   "auction_listings": 38
   },
   {
    "item": "REINFORCED_SCALES",
@@ -3257,12 +3296,12 @@
    "ingredients": {
     "SORROW": 24.0
    },
-   "cost_instant_buy": 4868493,
-   "cost_buy_orders": 4200026,
+   "cost_instant_buy": 4867685,
+   "cost_buy_orders": 4200034,
    "sell_instant": 6176000,
    "sell_order_or_bin": 6176000,
-   "profit_safe": 1307507,
-   "profit_patient": 1975974,
+   "profit_safe": 1308315,
+   "profit_patient": 1975966,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 29
@@ -3295,11 +3334,11 @@
     "AGARIMOO_RING": 1.0
    },
    "cost_instant_buy": 3699614,
-   "cost_buy_orders": 2878879,
+   "cost_buy_orders": 2878875,
    "sell_instant": 4815350,
    "sell_order_or_bin": 4815350,
    "profit_safe": 1115736,
-   "profit_patient": 1936471,
+   "profit_patient": 1936475,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 22
@@ -3314,11 +3353,11 @@
     "ENCHANTED_ENDER_PEARL": 16.0
    },
    "cost_instant_buy": 39100,
-   "cost_buy_orders": 27199,
+   "cost_buy_orders": 27198,
    "sell_instant": 1929999,
    "sell_order_or_bin": 1929999,
    "profit_safe": 1890899,
-   "profit_patient": 1902800,
+   "profit_patient": 1902801,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 11
@@ -3333,15 +3372,15 @@
     "ENCHANTED_OBSIDIAN": 80.0,
     "ENCHANTED_ENDER_PEARL": 16.0
    },
-   "cost_instant_buy": 365016,
-   "cost_buy_orders": 322520,
+   "cost_instant_buy": 364996,
+   "cost_buy_orders": 322518,
    "sell_instant": 2219500,
    "sell_order_or_bin": 2219500,
-   "profit_safe": 1854484,
-   "profit_patient": 1896980,
+   "profit_safe": 1854504,
+   "profit_patient": 1896982,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
-   "auction_listings": 5
+   "auction_listings": 4
   },
   {
    "item": "BAT_WAND",
@@ -3382,26 +3421,6 @@
    "auction_listings": 1
   },
   {
-   "item": "VANQUISHED_GHAST_CLOAK",
-   "name": "Vanquished Ghast Cloak",
-   "requirement": null,
-   "output_count": 1,
-   "ingredients": {
-    "CORRUPTED_NETHER_STAR": 3.0,
-    "SILVER_FANG": 256.0,
-    "GHAST_CLOAK": 1.0
-   },
-   "cost_instant_buy": 3988113,
-   "cost_buy_orders": 2938178,
-   "sell_instant": 4825000,
-   "sell_order_or_bin": 4825000,
-   "profit_safe": 836887,
-   "profit_patient": 1886822,
-   "sell_where": "auction",
-   "bazaar_daily_sales": null,
-   "auction_listings": 7
-  },
-  {
    "item": "POWER_WITHER_BOOTS",
    "name": "Necron's Boots",
    "requirement": null,
@@ -3410,12 +3429,12 @@
     "GIANT_FRAGMENT_DIAMOND": 8.0,
     "WITHER_BOOTS": 1.0
    },
-   "cost_instant_buy": 4953079,
-   "cost_buy_orders": 3906424,
+   "cost_instant_buy": 4953082,
+   "cost_buy_orders": 3909112,
    "sell_instant": 5790000,
    "sell_order_or_bin": 5790000,
-   "profit_safe": 836921,
-   "profit_patient": 1883576,
+   "profit_safe": 836918,
+   "profit_patient": 1880888,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 62
@@ -3429,12 +3448,12 @@
     "GLOSSY_GEMSTONE": 16.0,
     "MINERAL_TALISMAN": 1.0
    },
-   "cost_instant_buy": 26677162,
-   "cost_buy_orders": 25808555,
+   "cost_instant_buy": 26678382,
+   "cost_buy_orders": 25808554,
    "sell_instant": 27673088,
    "sell_order_or_bin": 27673088,
-   "profit_safe": 995925,
-   "profit_patient": 1864533,
+   "profit_safe": 994706,
+   "profit_patient": 1864534,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 11
@@ -3450,12 +3469,12 @@
     "WATER_ORB": 1.0,
     "BUSTED_BELT_BUCKLE": 8.0
    },
-   "cost_instant_buy": 2432644,
-   "cost_buy_orders": 1993898,
+   "cost_instant_buy": 2432632,
+   "cost_buy_orders": 1993897,
    "sell_instant": 3850350,
    "sell_order_or_bin": 3850350,
-   "profit_safe": 1417706,
-   "profit_patient": 1856452,
+   "profit_safe": 1417718,
+   "profit_patient": 1856453,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 1
@@ -3508,15 +3527,15 @@
     "GIANT_FRAGMENT_DIAMOND": 8.0,
     "WITHER_CHESTPLATE": 1.0
    },
-   "cost_instant_buy": 12752979,
-   "cost_buy_orders": 11706324,
+   "cost_instant_buy": 12752982,
+   "cost_buy_orders": 11709012,
    "sell_instant": 13509999,
    "sell_order_or_bin": 13509999,
-   "profit_safe": 757020,
-   "profit_patient": 1803675,
+   "profit_safe": 757017,
+   "profit_patient": 1800987,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
-   "auction_listings": 305
+   "auction_listings": 306
   },
   {
    "item": "BAT_PERSON_CHESTPLATE",
@@ -3553,7 +3572,7 @@
    "profit_patient": 1776904,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
-   "auction_listings": 25
+   "auction_listings": 26
   },
   {
    "item": "BEASTMASTER_CREST_EPIC",
@@ -3643,11 +3662,11 @@
     "WEREWOLF_SKIN": 24.0,
     "WATER_ORB": 1.0
    },
-   "cost_instant_buy": 3029571,
+   "cost_instant_buy": 3029558,
    "cost_buy_orders": 2527066,
    "sell_instant": 220214,
    "sell_order_or_bin": 4236375,
-   "profit_safe": -2809357,
+   "profit_safe": -2809344,
    "profit_patient": 1709309,
    "sell_where": "bazaar",
    "bazaar_daily_sales": 2,
@@ -3662,11 +3681,11 @@
     "ENCHANTED_RED_SAND_CUBE": 6.0,
     "WITHER_SOUL": 64.0
    },
-   "cost_instant_buy": 1015609,
+   "cost_instant_buy": 1015602,
    "cost_buy_orders": 720097,
    "sell_instant": 2412500,
    "sell_order_or_bin": 2412500,
-   "profit_safe": 1396891,
+   "profit_safe": 1396898,
    "profit_patient": 1692403,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -3680,11 +3699,11 @@
    "ingredients": {
     "YOUNG_FRAGMENT": 40.0
    },
-   "cost_instant_buy": 322730,
+   "cost_instant_buy": 322804,
    "cost_buy_orders": 243640,
    "sell_instant": 1930000,
    "sell_order_or_bin": 1930000,
-   "profit_safe": 1607270,
+   "profit_safe": 1607196,
    "profit_patient": 1686360,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -3735,11 +3754,11 @@
    "ingredients": {
     "YOUNG_FRAGMENT": 50.0
    },
-   "cost_instant_buy": 403412,
+   "cost_instant_buy": 403505,
    "cost_buy_orders": 304550,
    "sell_instant": 1929999,
    "sell_order_or_bin": 1929999,
-   "profit_safe": 1526587,
+   "profit_safe": 1526494,
    "profit_patient": 1625449,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -3754,11 +3773,11 @@
     "GIANT_FRAGMENT_LASER": 8.0,
     "WITHER_BOOTS": 1.0
    },
-   "cost_instant_buy": 13027254,
+   "cost_instant_buy": 13027256,
    "cost_buy_orders": 12373642,
    "sell_instant": 13992500,
    "sell_order_or_bin": 13992500,
-   "profit_safe": 965246,
+   "profit_safe": 965244,
    "profit_patient": 1618858,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -3773,15 +3792,15 @@
     "GLOSSY_GEMSTONE": 16.0,
     "MINERAL_HELMET": 1.0
    },
-   "cost_instant_buy": 26273957,
-   "cost_buy_orders": 25422467,
+   "cost_instant_buy": 26275177,
+   "cost_buy_orders": 25422466,
    "sell_instant": 27019035,
    "sell_order_or_bin": 27019035,
-   "profit_safe": 745078,
-   "profit_patient": 1596568,
+   "profit_safe": 743858,
+   "profit_patient": 1596569,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
-   "auction_listings": 14
+   "auction_listings": 13
   },
   {
    "item": "BLIZZARD_BOTTLE",
@@ -3852,11 +3871,11 @@
     "PERFECT_CHESTPLATE_11": 1.0
    },
    "cost_instant_buy": 8921433,
-   "cost_buy_orders": 8864104,
+   "cost_buy_orders": 8864102,
    "sell_instant": 10422000,
    "sell_order_or_bin": 10422000,
    "profit_safe": 1500567,
-   "profit_patient": 1557896,
+   "profit_patient": 1557898,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 24
@@ -3873,13 +3892,13 @@
    },
    "cost_instant_buy": 3091844,
    "cost_buy_orders": 2768087,
-   "sell_instant": 4288460,
-   "sell_order_or_bin": 4288460,
-   "profit_safe": 1196616,
-   "profit_patient": 1520373,
+   "sell_instant": 4301970,
+   "sell_order_or_bin": 4301970,
+   "profit_safe": 1210126,
+   "profit_patient": 1533883,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
-   "auction_listings": 62
+   "auction_listings": 61
   },
   {
    "item": "STARRED_SHADOW_ASSASSIN_CHESTPLATE",
@@ -3927,11 +3946,11 @@
     "NULL_OVOID": 32.0,
     "ASPECT_OF_THE_END": 1.0
    },
-   "cost_instant_buy": 3577875,
+   "cost_instant_buy": 3577645,
    "cost_buy_orders": 3318666,
    "sell_instant": 4825000,
    "sell_order_or_bin": 4825000,
-   "profit_safe": 1247125,
+   "profit_safe": 1247355,
    "profit_patient": 1506334,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -3984,11 +4003,11 @@
     "STRETCHING_STICKS": 16.0
    },
    "cost_instant_buy": 549050,
-   "cost_buy_orders": 289959,
+   "cost_buy_orders": 289958,
    "sell_instant": 1737000,
    "sell_order_or_bin": 1737000,
    "profit_safe": 1187950,
-   "profit_patient": 1447041,
+   "profit_patient": 1447042,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 3
@@ -4003,12 +4022,12 @@
     "ENTANGLER_LASSO": 1.0,
     "MANGCORE": 8.0
    },
-   "cost_instant_buy": 4570387,
-   "cost_buy_orders": 3383955,
+   "cost_instant_buy": 4570386,
+   "cost_buy_orders": 3384614,
    "sell_instant": 4825000,
    "sell_order_or_bin": 4825000,
-   "profit_safe": 254613,
-   "profit_patient": 1441045,
+   "profit_safe": 254614,
+   "profit_patient": 1440386,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 11
@@ -4120,34 +4139,15 @@
     "ORB_OF_ENERGY": 320.0,
     "STORM_IN_A_BOTTLE_EMPTY": 1.0
    },
-   "cost_instant_buy": 3452903,
-   "cost_buy_orders": 2492184,
+   "cost_instant_buy": 3452793,
+   "cost_buy_orders": 2492220,
    "sell_instant": 3860000,
    "sell_order_or_bin": 3860000,
-   "profit_safe": 407097,
-   "profit_patient": 1367816,
+   "profit_safe": 407207,
+   "profit_patient": 1367780,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 13
-  },
-  {
-   "item": "SHARK_SCALE_HELMET",
-   "name": "Shark Scale Helmet",
-   "requirement": null,
-   "output_count": 1,
-   "ingredients": {
-    "ENCHANTED_SHARK_FIN": 2.0,
-    "SPONGE_HELMET": 1.0
-   },
-   "cost_instant_buy": 804683,
-   "cost_buy_orders": 778000,
-   "sell_instant": 2122999,
-   "sell_order_or_bin": 2122999,
-   "profit_safe": 1318316,
-   "profit_patient": 1344999,
-   "sell_where": "auction",
-   "bazaar_daily_sales": null,
-   "auction_listings": 6
   },
   {
    "item": "HELIANTHUS_BOOTS",
@@ -4160,15 +4160,34 @@
     "FERMENTO_BOOTS": 1.0,
     "COMPACTED_MOONFLOWER": 64.0
    },
-   "cost_instant_buy": 38885168,
-   "cost_buy_orders": 37739434,
+   "cost_instant_buy": 38885169,
+   "cost_buy_orders": 37739436,
    "sell_instant": 39082500,
    "sell_order_or_bin": 39082500,
-   "profit_safe": 197332,
-   "profit_patient": 1343066,
+   "profit_safe": 197331,
+   "profit_patient": 1343064,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 35
+  },
+  {
+   "item": "STARRED_SHADOW_ASSASSIN_CLOAK",
+   "name": " Shadow Assassin Cloak",
+   "requirement": null,
+   "output_count": 1,
+   "ingredients": {
+    "LIVID_FRAGMENT": 8.0,
+    "SHADOW_ASSASSIN_CLOAK": 1.0
+   },
+   "cost_instant_buy": 2634513,
+   "cost_buy_orders": 2527422,
+   "sell_instant": 3850350,
+   "sell_order_or_bin": 3850350,
+   "profit_safe": 1215837,
+   "profit_patient": 1322928,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 28
   },
   {
    "item": "STARRED_VENOMS_TOUCH",
@@ -4182,14 +4201,14 @@
     "VENOMS_TOUCH": 1.0
    },
    "cost_instant_buy": 1625325,
-   "cost_buy_orders": 1485553,
+   "cost_buy_orders": 1485690,
    "sell_instant": 2798500,
    "sell_order_or_bin": 2798500,
    "profit_safe": 1173175,
-   "profit_patient": 1312947,
+   "profit_patient": 1312810,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
-   "auction_listings": 2
+   "auction_listings": 1
   },
   {
    "item": "FROZEN_BLAZE_CHESTPLATE",
@@ -4291,25 +4310,6 @@
    "auction_listings": 22
   },
   {
-   "item": "STARRED_SHADOW_ASSASSIN_CLOAK",
-   "name": " Shadow Assassin Cloak",
-   "requirement": null,
-   "output_count": 1,
-   "ingredients": {
-    "LIVID_FRAGMENT": 8.0,
-    "SHADOW_ASSASSIN_CLOAK": 1.0
-   },
-   "cost_instant_buy": 2667092,
-   "cost_buy_orders": 2560001,
-   "sell_instant": 3763500,
-   "sell_order_or_bin": 3763500,
-   "profit_safe": 1096408,
-   "profit_patient": 1203499,
-   "sell_where": "auction",
-   "bazaar_daily_sales": null,
-   "auction_listings": 29
-  },
-  {
    "item": "HELIANTHUS_RELIC",
    "name": "Helianthus Relic",
    "requirement": null,
@@ -4348,26 +4348,6 @@
    "auction_listings": 1
   },
   {
-   "item": "PRICKLY_CREEPER",
-   "name": "Prickly Creeper",
-   "requirement": null,
-   "output_count": 1,
-   "ingredients": {
-    "CACTUS_FLOWER": 16.0,
-    "ENCHANTED_CACTUS": 7.0,
-    "ENCHANTED_GUNPOWDER": 64.0
-   },
-   "cost_instant_buy": 3496276,
-   "cost_buy_orders": 2676467,
-   "sell_instant": 855908,
-   "sell_order_or_bin": 3834462,
-   "profit_safe": -2640367,
-   "profit_patient": 1157994,
-   "sell_where": "bazaar",
-   "bazaar_daily_sales": 11,
-   "auction_listings": null
-  },
-  {
    "item": "SILENT_PEARL",
    "name": "Silent Pearl",
    "requirement": null,
@@ -4387,6 +4367,26 @@
    "auction_listings": 7
   },
   {
+   "item": "PRICKLY_CREEPER",
+   "name": "Prickly Creeper",
+   "requirement": null,
+   "output_count": 1,
+   "ingredients": {
+    "CACTUS_FLOWER": 16.0,
+    "ENCHANTED_CACTUS": 7.0,
+    "ENCHANTED_GUNPOWDER": 64.0
+   },
+   "cost_instant_buy": 3496274,
+   "cost_buy_orders": 2676826,
+   "sell_instant": 855908,
+   "sell_order_or_bin": 3834462,
+   "profit_safe": -2640366,
+   "profit_patient": 1157636,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 11,
+   "auction_listings": null
+  },
+  {
    "item": "STARRED_SHADOW_ASSASSIN_LEGGINGS",
    "name": " Shadow Assassin Leggings",
    "requirement": null,
@@ -4403,7 +4403,7 @@
    "profit_patient": 1152698,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
-   "auction_listings": 72
+   "auction_listings": 73
   },
   {
    "item": "ICHTHYIC_CLOAK",
@@ -4444,6 +4444,24 @@
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 23
+  },
+  {
+   "item": "TREASURE_RING",
+   "name": "Treasure Ring",
+   "requirement": null,
+   "output_count": 1,
+   "ingredients": {
+    "TREASURE_TALISMAN": 8.0
+   },
+   "cost_instant_buy": 8000000,
+   "cost_buy_orders": 8000000,
+   "sell_instant": 9113888,
+   "sell_order_or_bin": 9113888,
+   "profit_safe": 1113888,
+   "profit_patient": 1113888,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 30
   },
   {
    "item": "BLAZE_TALISMAN",
@@ -4493,11 +4511,11 @@
     "WOLF_TALISMAN": 1.0,
     "WEAK_WOLF_CATALYST": 1.0
    },
-   "cost_instant_buy": 876803,
+   "cost_instant_buy": 876808,
    "cost_buy_orders": 840532,
    "sell_instant": 1920350,
    "sell_order_or_bin": 1920350,
-   "profit_safe": 1043547,
+   "profit_safe": 1043542,
    "profit_patient": 1079818,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -4511,12 +4529,12 @@
    "ingredients": {
     "SORROW": 15.0
    },
-   "cost_instant_buy": 3042808,
-   "cost_buy_orders": 2625017,
+   "cost_instant_buy": 3042303,
+   "cost_buy_orders": 2625021,
    "sell_instant": 3667000,
    "sell_order_or_bin": 3667000,
-   "profit_safe": 624192,
-   "profit_patient": 1041983,
+   "profit_safe": 624697,
+   "profit_patient": 1041979,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 23
@@ -4550,11 +4568,11 @@
     "ENCHANTED_SPIDER_EYE": 10.0
    },
    "cost_instant_buy": 462695,
-   "cost_buy_orders": 428592,
+   "cost_buy_orders": 428619,
    "sell_instant": 1447496,
    "sell_order_or_bin": 1447496,
    "profit_safe": 984801,
-   "profit_patient": 1018905,
+   "profit_patient": 1018877,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 22
@@ -4569,12 +4587,12 @@
     "SOUL_STRING": 48.0,
     "ENCHANTED_SPIDER_EYE": 16.0
    },
-   "cost_instant_buy": 496040,
-   "cost_buy_orders": 435591,
+   "cost_instant_buy": 496109,
+   "cost_buy_orders": 435619,
    "sell_instant": 1447496,
    "sell_order_or_bin": 1447496,
-   "profit_safe": 951456,
-   "profit_patient": 1011905,
+   "profit_safe": 951387,
+   "profit_patient": 1011878,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 22
@@ -4609,11 +4627,11 @@
     "RECLUSE_FANG": 1.0
    },
    "cost_instant_buy": 3972701,
-   "cost_buy_orders": 3831617,
+   "cost_buy_orders": 3831726,
    "sell_instant": 4825000,
    "sell_order_or_bin": 4825000,
    "profit_safe": 852299,
-   "profit_patient": 993383,
+   "profit_patient": 993274,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 1
@@ -4667,11 +4685,11 @@
     "ENCHANTED_QUARTZ": 1.0
    },
    "cost_instant_buy": 21645,
-   "cost_buy_orders": 16778,
+   "cost_buy_orders": 16726,
    "sell_instant": 964710,
    "sell_order_or_bin": 964710,
    "profit_safe": 943064,
-   "profit_patient": 947931,
+   "profit_patient": 947984,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 6
@@ -4704,15 +4722,15 @@
     "REFINED_MINERAL": 7.0,
     "HARDENED_DIAMOND_LEGGINGS": 1.0
    },
-   "cost_instant_buy": 726459,
+   "cost_instant_buy": 726460,
    "cost_buy_orders": 695561,
    "sell_instant": 1640500,
    "sell_order_or_bin": 1640500,
-   "profit_safe": 914041,
+   "profit_safe": 914040,
    "profit_patient": 944939,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
-   "auction_listings": 10
+   "auction_listings": 12
   },
   {
    "item": "BLAZE_BELT",
@@ -4754,6 +4772,26 @@
    "auction_listings": 1
   },
   {
+   "item": "VANQUISHED_GHAST_CLOAK",
+   "name": "Vanquished Ghast Cloak",
+   "requirement": null,
+   "output_count": 1,
+   "ingredients": {
+    "CORRUPTED_NETHER_STAR": 3.0,
+    "SILVER_FANG": 256.0,
+    "GHAST_CLOAK": 1.0
+   },
+   "cost_instant_buy": 3988306,
+   "cost_buy_orders": 2938178,
+   "sell_instant": 3860000,
+   "sell_order_or_bin": 3860000,
+   "profit_safe": -128306,
+   "profit_patient": 921822,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 8
+  },
+  {
    "item": "GLOSSY_MINERAL_LEGGINGS",
    "name": "Glossy Mineral Leggings",
    "requirement": null,
@@ -4762,15 +4800,15 @@
     "GLOSSY_GEMSTONE": 16.0,
     "MINERAL_LEGGINGS": 1.0
    },
-   "cost_instant_buy": 26481517,
+   "cost_instant_buy": 26482737,
    "cost_buy_orders": 25621198,
    "sell_instant": 26537500,
    "sell_order_or_bin": 26537500,
-   "profit_safe": 55983,
+   "profit_safe": 54763,
    "profit_patient": 916302,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
-   "auction_listings": 18
+   "auction_listings": 17
   },
   {
    "item": "SOULS_REBOUND",
@@ -4782,12 +4820,12 @@
     "SOUL_STRING": 192.0,
     "DARK_QUEENS_SOUL_DROP": 10.0
    },
-   "cost_instant_buy": 1209785,
-   "cost_buy_orders": 1039780,
+   "cost_instant_buy": 1209978,
+   "cost_buy_orders": 1039890,
    "sell_instant": 1929999,
    "sell_order_or_bin": 1929999,
-   "profit_safe": 720214,
-   "profit_patient": 890219,
+   "profit_safe": 720021,
+   "profit_patient": 890109,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 13
@@ -4800,11 +4838,11 @@
    "ingredients": {
     "WISE_FRAGMENT": 70.0
    },
-   "cost_instant_buy": 1724842,
+   "cost_instant_buy": 1724828,
    "cost_buy_orders": 1619170,
    "sell_instant": 2509000,
    "sell_order_or_bin": 2509000,
-   "profit_safe": 784158,
+   "profit_safe": 784172,
    "profit_patient": 889830,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -4820,11 +4858,11 @@
     "MAGMA_NECKLACE": 1.0,
     "CORRUPTED_NETHER_STAR": 3.0
    },
-   "cost_instant_buy": 551083,
+   "cost_instant_buy": 551089,
    "cost_buy_orders": 463379,
    "sell_instant": 1350035,
    "sell_order_or_bin": 1350035,
-   "profit_safe": 798952,
+   "profit_safe": 798946,
    "profit_patient": 886656,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -4847,7 +4885,7 @@
    "profit_patient": 884925,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
-   "auction_listings": 53
+   "auction_listings": 54
   },
   {
    "item": "STARRED_SHADOW_ASSASSIN_HELMET",
@@ -4858,15 +4896,15 @@
     "LIVID_FRAGMENT": 8.0,
     "SHADOW_ASSASSIN_HELMET": 1.0
    },
-   "cost_instant_buy": 1157093,
-   "cost_buy_orders": 1050002,
+   "cost_instant_buy": 1157092,
+   "cost_buy_orders": 1050001,
    "sell_instant": 1929999,
    "sell_order_or_bin": 1929999,
-   "profit_safe": 772906,
-   "profit_patient": 879997,
+   "profit_safe": 772907,
+   "profit_patient": 879998,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
-   "auction_listings": 64
+   "auction_listings": 58
   },
   {
    "item": "ARCHAIC_SPADE",
@@ -4956,11 +4994,11 @@
    "ingredients": {
     "THUNDER_SHARDS": 8.0
    },
-   "cost_instant_buy": 418625,
+   "cost_instant_buy": 418622,
    "cost_buy_orders": 373042,
    "sell_instant": 1186950,
    "sell_order_or_bin": 1186950,
-   "profit_safe": 768325,
+   "profit_safe": 768328,
    "profit_patient": 813908,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -4974,11 +5012,11 @@
    "ingredients": {
     "ENCHANTED_IRON": 50.0
    },
-   "cost_instant_buy": 15484,
+   "cost_instant_buy": 15440,
    "cost_buy_orders": 3200,
    "sell_instant": 814888,
    "sell_order_or_bin": 814888,
-   "profit_safe": 799404,
+   "profit_safe": 799448,
    "profit_patient": 811688,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -4992,15 +5030,15 @@
    "ingredients": {
     "SORROW": 12.0
    },
-   "cost_instant_buy": 2434246,
-   "cost_buy_orders": 2100013,
+   "cost_instant_buy": 2433842,
+   "cost_buy_orders": 2100017,
    "sell_instant": 2904650,
    "sell_order_or_bin": 2904650,
-   "profit_safe": 470404,
-   "profit_patient": 804637,
+   "profit_safe": 470808,
+   "profit_patient": 804633,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
-   "auction_listings": 65
+   "auction_listings": 64
   },
   {
    "item": "ICHTHYIC_GLOVES",
@@ -5032,11 +5070,11 @@
     "PERFECT_LEGGINGS_5": 1.0
    },
    "cost_instant_buy": 5536612,
-   "cost_buy_orders": 5472117,
+   "cost_buy_orders": 5472115,
    "sell_instant": 6272500,
    "sell_order_or_bin": 6272500,
    "profit_safe": 735888,
-   "profit_patient": 800383,
+   "profit_patient": 800385,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 1
@@ -5175,6 +5213,27 @@
    "auction_listings": 28
   },
   {
+   "item": "FEAST_BURGER",
+   "name": "Feast Burger with a Side of Deepfries",
+   "requirement": null,
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_HAY_BALE": 24.0,
+    "DEEPFRIES": 12.0,
+    "FEASTFUNGUS": 12.0,
+    "CORNUCOPIA": 12.0
+   },
+   "cost_instant_buy": 5942836,
+   "cost_buy_orders": 5571395,
+   "sell_instant": 5628750,
+   "sell_order_or_bin": 6323610,
+   "profit_safe": -314085,
+   "profit_patient": 752214,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 8,
+   "auction_listings": null
+  },
+  {
    "item": "TANK_WITHER_HELMET",
    "name": "Goldor's Helmet",
    "requirement": null,
@@ -5192,27 +5251,6 @@
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 10
-  },
-  {
-   "item": "FEAST_BURGER",
-   "name": "Feast Burger with a Side of Deepfries",
-   "requirement": null,
-   "output_count": 1,
-   "ingredients": {
-    "ENCHANTED_HAY_BALE": 24.0,
-    "DEEPFRIES": 12.0,
-    "FEASTFUNGUS": 12.0,
-    "CORNUCOPIA": 12.0
-   },
-   "cost_instant_buy": 5942836,
-   "cost_buy_orders": 5571868,
-   "sell_instant": 5628750,
-   "sell_order_or_bin": 6323610,
-   "profit_safe": -314085,
-   "profit_patient": 751742,
-   "sell_where": "bazaar",
-   "bazaar_daily_sales": 8,
-   "auction_listings": null
   },
   {
    "item": "WAND_OF_STRENGTH",
@@ -5253,27 +5291,6 @@
    "auction_listings": 6
   },
   {
-   "item": "HOTSPOT_RADAR",
-   "name": "Hotspot Radar",
-   "requirement": null,
-   "output_count": 1,
-   "ingredients": {
-    "BRONZE_BOWL": 2.0,
-    "REDSTONE": 2.0,
-    "BROKEN_RADAR": 1.0,
-    "IRON_INGOT": 3.0
-   },
-   "cost_instant_buy": 703512,
-   "cost_buy_orders": 619123,
-   "sell_instant": 1351000,
-   "sell_order_or_bin": 1351000,
-   "profit_safe": 647488,
-   "profit_patient": 731877,
-   "sell_where": "auction",
-   "bazaar_daily_sales": null,
-   "auction_listings": 9
-  },
-  {
    "item": "WEREWOLF_HELMET",
    "name": "Werewolf Helmet",
    "requirement": null,
@@ -5290,25 +5307,6 @@
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 9
-  },
-  {
-   "item": "PERSONAL_COMPACTOR_6000",
-   "name": "Personal Compactor 6000",
-   "requirement": "Requires: Redstone Dust VIII",
-   "output_count": 1,
-   "ingredients": {
-    "ENCHANTED_REDSTONE_BLOCK": 7.0,
-    "PERSONAL_COMPACTOR_5000": 1.0
-   },
-   "cost_instant_buy": 425786,
-   "cost_buy_orders": 334225,
-   "sell_instant": 1060534,
-   "sell_order_or_bin": 1060534,
-   "profit_safe": 634748,
-   "profit_patient": 726309,
-   "sell_where": "auction",
-   "bazaar_daily_sales": null,
-   "auction_listings": 16
   },
   {
    "item": "DAEDALUS_NOTES",
@@ -5343,11 +5341,11 @@
     "ENCHANTED_SPIDER_EYE": 6.0
    },
    "cost_instant_buy": 276828,
-   "cost_buy_orders": 251526,
+   "cost_buy_orders": 251554,
    "sell_instant": 965000,
    "sell_order_or_bin": 965000,
    "profit_safe": 688172,
-   "profit_patient": 713474,
+   "profit_patient": 713446,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 9
@@ -5361,11 +5359,11 @@
     "ENCHANTED_WATER_LILY": 32.0,
     "LOTUS_SILVER": 16.0
    },
-   "cost_instant_buy": 393746,
+   "cost_instant_buy": 393747,
    "cost_buy_orders": 252416,
    "sell_instant": 965000,
    "sell_order_or_bin": 965000,
-   "profit_safe": 571254,
+   "profit_safe": 571253,
    "profit_patient": 712584,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -5477,11 +5475,11 @@
     "SPIDER_QUEENS_STINGER": 1.0
    },
    "cost_instant_buy": 1390814,
-   "cost_buy_orders": 1254161,
+   "cost_buy_orders": 1254299,
    "sell_instant": 1930000,
    "sell_order_or_bin": 1930000,
    "profit_safe": 539186,
-   "profit_patient": 675839,
+   "profit_patient": 675701,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 12
@@ -5543,6 +5541,25 @@
    "auction_listings": 21
   },
   {
+   "item": "PERSONAL_COMPACTOR_6000",
+   "name": "Personal Compactor 6000",
+   "requirement": "Requires: Redstone Dust VIII",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_REDSTONE_BLOCK": 7.0,
+    "PERSONAL_COMPACTOR_5000": 1.0
+   },
+   "cost_instant_buy": 444859,
+   "cost_buy_orders": 400865,
+   "sell_instant": 1060534,
+   "sell_order_or_bin": 1060534,
+   "profit_safe": 615675,
+   "profit_patient": 659669,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 16
+  },
+  {
    "item": "ENTANGLER_LASSO",
    "name": "Entangler Lasso",
    "requirement": null,
@@ -5572,12 +5589,12 @@
     "ENCHANTED_FIG_LOG": 128.0,
     "RETIA_FORTA": 1.0
    },
-   "cost_instant_buy": 852100,
-   "cost_buy_orders": 746783,
+   "cost_instant_buy": 852119,
+   "cost_buy_orders": 746779,
    "sell_instant": 1399250,
    "sell_order_or_bin": 1399250,
-   "profit_safe": 547150,
-   "profit_patient": 652467,
+   "profit_safe": 547131,
+   "profit_patient": 652471,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 7
@@ -5690,12 +5707,12 @@
     "NURSE_SHARK_TOOTH": 12.0,
     "TIGER_SHARK_TOOTH": 4.0
    },
-   "cost_instant_buy": 5439280,
+   "cost_instant_buy": 5439267,
    "cost_buy_orders": 4794152,
    "sell_instant": 197506,
    "sell_order_or_bin": 5423816,
-   "profit_safe": -5241774,
-   "profit_patient": 629664,
+   "profit_safe": -5241761,
+   "profit_patient": 629665,
    "sell_where": "bazaar",
    "bazaar_daily_sales": 0,
    "auction_listings": null
@@ -5708,12 +5725,12 @@
    "ingredients": {
     "ORB_OF_ENERGY": 256.0
    },
-   "cost_instant_buy": 2482982,
-   "cost_buy_orders": 1792128,
+   "cost_instant_buy": 2482903,
+   "cost_buy_orders": 1792154,
    "sell_instant": 2412499,
    "sell_order_or_bin": 2412499,
-   "profit_safe": -70483,
-   "profit_patient": 620371,
+   "profit_safe": -70404,
+   "profit_patient": 620345,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 83
@@ -5765,11 +5782,11 @@
     "ENCHANTED_GHAST_TEAR": 192.0,
     "TENTACLE_MEAT": 10.0
    },
-   "cost_instant_buy": 114454,
+   "cost_instant_buy": 114648,
    "cost_buy_orders": 63422,
    "sell_instant": 673570,
    "sell_order_or_bin": 673570,
-   "profit_safe": 559116,
+   "profit_safe": 558922,
    "profit_patient": 610148,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -5785,12 +5802,12 @@
     "RAW_SOULFLOW": 80.0,
     "ABSOLUTE_ENDER_PEARL": 16.0
    },
-   "cost_instant_buy": 646543,
-   "cost_buy_orders": 574548,
+   "cost_instant_buy": 646521,
+   "cost_buy_orders": 574551,
    "sell_instant": 1182125,
    "sell_order_or_bin": 1182125,
-   "profit_safe": 535582,
-   "profit_patient": 607577,
+   "profit_safe": 535604,
+   "profit_patient": 607574,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 16
@@ -5804,11 +5821,11 @@
     "HOLY_FRAGMENT": 50.0
    },
    "cost_instant_buy": 532600,
-   "cost_buy_orders": 352818,
+   "cost_buy_orders": 352812,
    "sell_instant": 952455,
    "sell_order_or_bin": 952455,
    "profit_safe": 419855,
-   "profit_patient": 599637,
+   "profit_patient": 599643,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 3
@@ -5822,11 +5839,11 @@
     "ENCHANTED_EMERALD": 256.0,
     "PET_ITEM_LUCKY_CLOVER_DROP": 1.0
    },
-   "cost_instant_buy": 911265,
+   "cost_instant_buy": 911246,
    "cost_buy_orders": 676452,
    "sell_instant": 1253535,
    "sell_order_or_bin": 1253535,
-   "profit_safe": 342270,
+   "profit_safe": 342289,
    "profit_patient": 577083,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -5842,11 +5859,11 @@
     "INFERNO_FUEL_BLOCK": 2.0,
     "HYPERGOLIC_GABAGOOL": 1.0
    },
-   "cost_instant_buy": 4637607,
+   "cost_instant_buy": 4637604,
    "cost_buy_orders": 4480949,
    "sell_instant": 5056600,
    "sell_order_or_bin": 5056600,
-   "profit_safe": 418993,
+   "profit_safe": 418996,
    "profit_patient": 575651,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -5898,11 +5915,11 @@
     "REFINED_MINERAL": 5.0,
     "HARDENED_DIAMOND_HELMET": 1.0
    },
-   "cost_instant_buy": 518899,
+   "cost_instant_buy": 518900,
    "cost_buy_orders": 496829,
    "sell_instant": 1059569,
    "sell_order_or_bin": 1059569,
-   "profit_safe": 540670,
+   "profit_safe": 540669,
    "profit_patient": 562740,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
@@ -5938,33 +5955,1967 @@
     "ENCHANTED_SEA_LUMIES": 1.0
    },
    "cost_instant_buy": 250169,
-   "cost_buy_orders": 209360,
+   "cost_buy_orders": 209358,
    "sell_instant": 748840,
    "sell_order_or_bin": 748840,
    "profit_safe": 498671,
-   "profit_patient": 539480,
+   "profit_patient": 539482,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 29
+  }
+ ],
+ "collection_recipes": [
+  {
+   "item": "GOLEM_ARMOR_HELMET",
+   "name": "Golem Armor Helmet",
+   "requirement": "Requires: Iron Ingot VI",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_IRON": 50.0
+   },
+   "cost_instant_buy": 15440,
+   "cost_buy_orders": 3200,
+   "sell_instant": 814888,
+   "sell_order_or_bin": 814888,
+   "profit_safe": 799448,
+   "profit_patient": 811688,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 3
+  },
+  {
+   "item": "PERSONAL_COMPACTOR_6000",
+   "name": "Personal Compactor 6000",
+   "requirement": "Requires: Redstone Dust VIII",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_REDSTONE_BLOCK": 7.0,
+    "PERSONAL_COMPACTOR_5000": 1.0
+   },
+   "cost_instant_buy": 444859,
+   "cost_buy_orders": 400865,
+   "sell_instant": 1060534,
+   "sell_order_or_bin": 1060534,
+   "profit_safe": 615675,
+   "profit_patient": 659669,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 16
+  },
+  {
+   "item": "BLOBFISH_HAT",
+   "name": "Blobfish Hat",
+   "requirement": "Requires: Lily Pad II",
+   "output_count": 1,
+   "ingredients": {
+    "WATER_LILY": 5.0,
+    "CLAY_BALL": 4.0
+   },
+   "cost_instant_buy": 224,
+   "cost_buy_orders": 38,
+   "sell_instant": 530750,
+   "sell_order_or_bin": 530750,
+   "profit_safe": 530526,
+   "profit_patient": 530712,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 10
+  },
+  {
+   "item": "MINING_2_TRAVEL_SCROLL",
+   "name": "Travel Scroll to Deep Caverns",
+   "requirement": "Requires: Redstone Dust V",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_REDSTONE": 48.0,
+    "ENCHANTED_LAPIS_LAZULI": 80.0,
+    "ENCHANTED_ENDER_PEARL": 16.0
+   },
+   "cost_instant_buy": 108968,
+   "cost_buy_orders": 90296,
+   "sell_instant": 578999,
+   "sell_order_or_bin": 578999,
+   "profit_safe": 470031,
+   "profit_patient": 488703,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 10
+  },
+  {
+   "item": "SEA_CREATURE_RING",
+   "name": "Sea Creature Ring",
+   "requirement": "Requires: Sponge VI",
+   "output_count": 1,
+   "ingredients": {
+    "SPONGE": 6.0,
+    "ENCHANTED_SPONGE": 2.0,
+    "SEA_CREATURE_TALISMAN": 1.0
+   },
+   "cost_instant_buy": 6833,
+   "cost_buy_orders": 4462,
+   "sell_instant": 462234,
+   "sell_order_or_bin": 462234,
+   "profit_safe": 455401,
+   "profit_patient": 457772,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 3
+  },
+  {
+   "item": "MINING_1_TRAVEL_SCROLL",
+   "name": "Travel Scroll to the Gold Mine",
+   "requirement": "Requires: Coal VI",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_IRON": 48.0,
+    "ENCHANTED_GOLD": 80.0,
+    "ENCHANTED_ENDER_PEARL": 16.0
+   },
+   "cost_instant_buy": 58771,
+   "cost_buy_orders": 39829,
+   "sell_instant": 492149,
+   "sell_order_or_bin": 492149,
+   "profit_safe": 433378,
+   "profit_patient": 452320,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 3
+  },
+  {
+   "item": "GUARDIAN_CHESTPLATE",
+   "name": "Guardian Chestplate",
+   "requirement": "Requires: Prismarine Crystals V",
+   "output_count": 1,
+   "ingredients": {
+    "PRISMARINE_SHARD": 256.0,
+    "PRISMARINE_CRYSTALS": 256.0
+   },
+   "cost_instant_buy": 255620,
+   "cost_buy_orders": 227973,
+   "sell_instant": 675500,
+   "sell_order_or_bin": 675500,
+   "profit_safe": 419880,
+   "profit_patient": 447527,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 10
+  },
+  {
+   "item": "ENCHANTED_JACK_O_LANTERN",
+   "name": "Lantern Helmet",
+   "requirement": "Requires: Pumpkin VII",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_PUMPKIN": 128.0,
+    "TORCH": 1.0
+   },
+   "cost_instant_buy": 210809,
+   "cost_buy_orders": 201063,
+   "sell_instant": 627250,
+   "sell_order_or_bin": 627250,
+   "profit_safe": 416441,
+   "profit_patient": 426187,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 6
+  },
+  {
+   "item": "FARMING_1_TRAVEL_SCROLL",
+   "name": "Travel Scroll to The Barn",
+   "requirement": "Requires: Potato VI",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_CARROT": 48.0,
+    "ENCHANTED_POTATO": 80.0,
+    "ENCHANTED_ENDER_PEARL": 16.0
+   },
+   "cost_instant_buy": 66882,
+   "cost_buy_orders": 60039,
+   "sell_instant": 480570,
+   "sell_order_or_bin": 480570,
+   "profit_safe": 413688,
+   "profit_patient": 420531,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 11
+  },
+  {
+   "item": "HOTSPOT_RING",
+   "name": "Hotspot Ring",
+   "requirement": "Requires: Clay Ball VII",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_CLAY_BALL": 32.0,
+    "BUSTED_BELT_BUCKLE": 4.0,
+    "HOTSPOT_TALISMAN": 1.0
+   },
+   "cost_instant_buy": 221346,
+   "cost_buy_orders": 167042,
+   "sell_instant": 578997,
+   "sell_order_or_bin": 578997,
+   "profit_safe": 357651,
+   "profit_patient": 411955,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 34
+  },
+  {
+   "item": "DANGER_3_TRAVEL_SCROLL",
+   "name": "Travel Scroll to the End",
+   "requirement": "Requires: End Stone VIII",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_OBSIDIAN": 48.0,
+    "ENCHANTED_ENDSTONE": 80.0,
+    "ENCHANTED_ENDER_PEARL": 16.0
+   },
+   "cost_instant_buy": 166715,
+   "cost_buy_orders": 147389,
+   "sell_instant": 556898,
+   "sell_order_or_bin": 556898,
+   "profit_safe": 390182,
+   "profit_patient": 409509,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 20
+  },
+  {
+   "item": "GOLEM_SWORD",
+   "name": "Golem Sword",
+   "requirement": "Requires: Iron Ingot VIII",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_IRON_BLOCK": 2.0,
+    "STICK": 1.0
+   },
+   "cost_instant_buy": 98820,
+   "cost_buy_orders": 20480,
+   "sell_instant": 429423,
+   "sell_order_or_bin": 429423,
+   "profit_safe": 330603,
+   "profit_patient": 408943,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 4
+  },
+  {
+   "item": "GOLEM_ARMOR_LEGGINGS",
+   "name": "Golem Armor Leggings",
+   "requirement": "Requires: Iron Ingot VI",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_IRON": 70.0
+   },
+   "cost_instant_buy": 21616,
+   "cost_buy_orders": 4480,
+   "sell_instant": 385035,
+   "sell_order_or_bin": 385035,
+   "profit_safe": 363419,
+   "profit_patient": 380555,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 4
+  },
+  {
+   "item": "GOLEM_ARMOR_CHESTPLATE",
+   "name": "Golem Armor Chestplate",
+   "requirement": "Requires: Iron Ingot VI",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_IRON": 80.0
+   },
+   "cost_instant_buy": 24704,
+   "cost_buy_orders": 5120,
+   "sell_instant": 385035,
+   "sell_order_or_bin": 385035,
+   "profit_safe": 360331,
+   "profit_patient": 379915,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 6
+  },
+  {
+   "item": "SPONGE_BELT",
+   "name": "Sponge Belt",
+   "requirement": "Requires: Sponge V",
+   "output_count": 1,
+   "ingredients": {
+    "SPONGE": 64.0,
+    "ENCHANTED_SPONGE": 6.0
+   },
+   "cost_instant_buy": 19700,
+   "cost_buy_orders": 13163,
+   "sell_instant": 383105,
+   "sell_order_or_bin": 383105,
+   "profit_safe": 363405,
+   "profit_patient": 369942,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 16
+  },
+  {
+   "item": "GOLEM_ARMOR_BOOTS",
+   "name": "Golem Armor Boots",
+   "requirement": "Requires: Iron Ingot VI",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_IRON": 40.0
+   },
+   "cost_instant_buy": 12352,
+   "cost_buy_orders": 2560,
+   "sell_instant": 336785,
+   "sell_order_or_bin": 336785,
+   "profit_safe": 324433,
+   "profit_patient": 334225,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 12
+  },
+  {
+   "item": "PERSONAL_COMPACTOR_5000",
+   "name": "Personal Compactor 5000",
+   "requirement": "Requires: Redstone Dust VII",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_REDSTONE": 84.0,
+    "PERSONAL_COMPACTOR_4000": 1.0
+   },
+   "cost_instant_buy": 263697,
+   "cost_buy_orders": 226108,
+   "sell_instant": 558735,
+   "sell_order_or_bin": 558735,
+   "profit_safe": 295038,
+   "profit_patient": 332627,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 21
+  },
+  {
+   "item": "SALMON_BOOTS_NEW",
+   "name": "Salmon Boots",
+   "requirement": "Requires: Raw Salmon VI",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_RAW_SALMON": 4.0
+   },
+   "cost_instant_buy": 6800,
+   "cost_buy_orders": 6241,
+   "sell_instant": 337750,
+   "sell_order_or_bin": 337750,
+   "profit_safe": 330950,
+   "profit_patient": 331509,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 2
+  },
+  {
+   "item": "PRISMARINE_BLADE",
+   "name": "Prismarine Blade",
+   "requirement": "Requires: Prismarine Shard II",
+   "output_count": 1,
+   "ingredients": {
+    "PRISMARINE_SHARD": 64.0,
+    "STICK": 1.0
+   },
+   "cost_instant_buy": 644,
+   "cost_buy_orders": 7,
+   "sell_instant": 285350,
+   "sell_order_or_bin": 285350,
+   "profit_safe": 284705,
+   "profit_patient": 285343,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 5
+  },
+  {
+   "item": "PRISMARINE_BOW",
+   "name": "Prismarine Bow",
+   "requirement": "Requires: Prismarine Shard V",
+   "output_count": 1,
+   "ingredients": {
+    "PRISMARINE_SHARD": 48.0,
+    "STRING": 3.0
+   },
+   "cost_instant_buy": 623,
+   "cost_buy_orders": 11,
+   "sell_instant": 279850,
+   "sell_order_or_bin": 279850,
+   "profit_safe": 279227,
+   "profit_patient": 279839,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 30
+  },
+  {
+   "item": "FEATHER_RING",
+   "name": "Feather Ring",
+   "requirement": "Requires: Feather VII",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_FEATHER": 7.0,
+    "FEATHER_TALISMAN": 1.0
+   },
+   "cost_instant_buy": 6070,
+   "cost_buy_orders": 5065,
+   "sell_instant": 278885,
+   "sell_order_or_bin": 278885,
+   "profit_safe": 272815,
+   "profit_patient": 273820,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 12
+  },
+  {
+   "item": "TRAINING_DUMMY",
+   "name": "Training Dummy",
+   "requirement": "Requires: Pumpkin V",
+   "output_count": 1,
+   "ingredients": {
+    "SPONGE": 224.0,
+    "ENCHANTED_PUMPKIN": 1.0,
+    "ARMOR_SHOWCASE": 1.0
+   },
+   "cost_instant_buy": 324010,
+   "cost_buy_orders": 307855,
+   "sell_instant": 568385,
+   "sell_order_or_bin": 568385,
+   "profit_safe": 244375,
+   "profit_patient": 260530,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 24
+  },
+  {
+   "item": "PERSONAL_COMPACTOR_4000",
+   "name": "Personal Compactor 4000",
+   "requirement": "Requires: Redstone Dust VI",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_REDSTONE": 28.0,
+    "SUPER_COMPACTOR_3000": 1.0
+   },
+   "cost_instant_buy": 198351,
+   "cost_buy_orders": 170752,
+   "sell_instant": 422670,
+   "sell_order_or_bin": 422670,
+   "profit_safe": 224319,
+   "profit_patient": 251918,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 30
+  },
+  {
+   "item": "PERSONAL_BANK_ITEM",
+   "name": "Personal Bank Item",
+   "requirement": "Requires: Emerald VI",
+   "output_count": 1,
+   "ingredients": {
+    "EMERALD": 512.0,
+    "ENCHANTED_EMERALD": 1.0
+   },
+   "cost_instant_buy": 3535,
+   "cost_buy_orders": 957,
+   "sell_instant": 241250,
+   "sell_order_or_bin": 241250,
+   "profit_safe": 237715,
+   "profit_patient": 240293,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 4
+  },
+  {
+   "item": "HARDENED_DIAMOND_CHESTPLATE",
+   "name": "Hardened Diamond Chestplate",
+   "requirement": "Requires: Diamond VII",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_DIAMOND": 8.0
+   },
+   "cost_instant_buy": 10591,
+   "cost_buy_orders": 10112,
+   "sell_instant": 241250,
+   "sell_order_or_bin": 241250,
+   "profit_safe": 230659,
+   "profit_patient": 231138,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 17
+  },
+  {
+   "item": "SPEED_RING",
+   "name": "Speed Ring",
+   "requirement": "Requires: Sugar Cane V",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_SUGAR": 96.0,
+    "SPEED_TALISMAN": 1.0
+   },
+   "cost_instant_buy": 66089,
+   "cost_buy_orders": 59378,
+   "sell_instant": 289500,
+   "sell_order_or_bin": 289500,
+   "profit_safe": 223411,
+   "profit_patient": 230122,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 1
+  },
+  {
+   "item": "LARGE_ENCHANTED_CHEST",
+   "name": "Large Storage",
+   "requirement": "Requires: Oak Log IX",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_OAK_LOG": 256.0,
+    "MEDIUM_ENCHANTED_CHEST": 1.0
+   },
+   "cost_instant_buy": 393707,
+   "cost_buy_orders": 306925,
+   "sell_instant": 349264,
+   "sell_order_or_bin": 531763,
+   "profit_safe": -44443,
+   "profit_patient": 224837,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 576,
+   "auction_listings": null
+  },
+  {
+   "item": "HARDENED_DIAMOND_LEGGINGS",
+   "name": "Hardened Diamond Leggings",
+   "requirement": "Requires: Diamond VII",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_DIAMOND": 7.0
+   },
+   "cost_instant_buy": 9267,
+   "cost_buy_orders": 8848,
+   "sell_instant": 221950,
+   "sell_order_or_bin": 221950,
+   "profit_safe": 212683,
+   "profit_patient": 213102,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 4
+  },
+  {
+   "item": "SPEEDSTER_HELMET",
+   "name": "Speedster Helmet",
+   "requirement": "Requires: Sugar Cane IV",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_SUGAR": 5.0
+   },
+   "cost_instant_buy": 3399,
+   "cost_buy_orders": 3082,
+   "sell_instant": 193000,
+   "sell_order_or_bin": 193000,
+   "profit_safe": 189601,
+   "profit_patient": 189918,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 1
+  },
+  {
+   "item": "FARMING_TALISMAN",
+   "name": "Farming Talisman",
+   "requirement": "Requires: Wheat VII",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_WHEAT": 80.0,
+    "ENCHANTED_SEEDS": 16.0
+   },
+   "cost_instant_buy": 91577,
+   "cost_buy_orders": 49579,
+   "sell_instant": 238121,
+   "sell_order_or_bin": 238121,
+   "profit_safe": 146545,
+   "profit_patient": 188542,
    "sell_where": "auction",
    "bazaar_daily_sales": null,
    "auction_listings": 29
   },
   {
-   "item": "METEOR_SHARD",
-   "name": "Meteor Chunk",
-   "requirement": null,
+   "item": "SPEEDSTER_CHESTPLATE",
+   "name": "Speedster Chestplate",
+   "requirement": "Requires: Sugar Cane IV",
    "output_count": 1,
    "ingredients": {
-    "SILVER_FANG": 40.0,
-    "STARFALL": 20.0,
-    "TENTACLE_MEAT": 10.0
+    "ENCHANTED_SUGAR": 8.0
    },
-   "cost_instant_buy": 663399,
-   "cost_buy_orders": 483369,
-   "sell_instant": 0,
-   "sell_order_or_bin": 1017108,
-   "profit_safe": -663399,
-   "profit_patient": 533739,
+   "cost_instant_buy": 5438,
+   "cost_buy_orders": 4932,
+   "sell_instant": 193000,
+   "sell_order_or_bin": 193000,
+   "profit_safe": 187562,
+   "profit_patient": 188068,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 2
+  },
+  {
+   "item": "HARDENED_DIAMOND_BOOTS",
+   "name": "Hardened Diamond Boots",
+   "requirement": "Requires: Diamond VII",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_DIAMOND": 4.0
+   },
+   "cost_instant_buy": 5295,
+   "cost_buy_orders": 5056,
+   "sell_instant": 193000,
+   "sell_order_or_bin": 193000,
+   "profit_safe": 187705,
+   "profit_patient": 187944,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 12
+  },
+  {
+   "item": "SPEEDSTER_BOOTS",
+   "name": "Speedster Boots",
+   "requirement": "Requires: Sugar Cane IV",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_SUGAR": 4.0
+   },
+   "cost_instant_buy": 2719,
+   "cost_buy_orders": 2466,
+   "sell_instant": 173700,
+   "sell_order_or_bin": 173700,
+   "profit_safe": 170981,
+   "profit_patient": 171234,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 5
+  },
+  {
+   "item": "PRISMARINE_SINKER",
+   "name": "Prismarine Sinker",
+   "requirement": "Requires: Prismarine Shard IV",
+   "output_count": 1,
+   "ingredients": {
+    "WATER_LILY": 16.0,
+    "PRISMARINE_CRYSTALS": 8.0,
+    "PRISMARINE_SHARD": 8.0
+   },
+   "cost_instant_buy": 8617,
+   "cost_buy_orders": 7246,
+   "sell_instant": 172722,
+   "sell_order_or_bin": 172722,
+   "profit_safe": 164106,
+   "profit_patient": 165477,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 19
+  },
+  {
+   "item": "WEATHER_STICK",
+   "name": "Weather Wand",
+   "requirement": "Requires: Redstone Dust IV",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_REDSTONE": 2.0,
+    "STICK": 1.0
+   },
+   "cost_instant_buy": 1560,
+   "cost_buy_orders": 1318,
+   "sell_instant": 144750,
+   "sell_order_or_bin": 144750,
+   "profit_safe": 143190,
+   "profit_patient": 143432,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 6
+  },
+  {
+   "item": "MEDIUM_BACKPACK",
+   "name": "Medium Backpack",
+   "requirement": "Requires: Leather VI",
+   "output_count": 1,
+   "ingredients": {
+    "LEATHER": 512.0,
+    "SMALL_BACKPACK": 1.0
+   },
+   "cost_instant_buy": 73408,
+   "cost_buy_orders": 1421,
+   "sell_instant": 144750,
+   "sell_order_or_bin": 144750,
+   "profit_safe": 71342,
+   "profit_patient": 143329,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 14
+  },
+  {
+   "item": "ZOMBIE_RING",
+   "name": "Zombie Ring",
+   "requirement": "Requires: Zombie Slayer 2",
+   "output_count": 1,
+   "ingredients": {
+    "REVENANT_FLESH": 64.0,
+    "ZOMBIE_TALISMAN": 1.0
+   },
+   "cost_instant_buy": 6555,
+   "cost_buy_orders": 5311,
+   "sell_instant": 125450,
+   "sell_order_or_bin": 125450,
+   "profit_safe": 118895,
+   "profit_patient": 120139,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 15
+  },
+  {
+   "item": "CLEAVER",
+   "name": "Cleaver",
+   "requirement": "Requires: Gold Ingot II",
+   "output_count": 1,
+   "ingredients": {
+    "GOLD_INGOT": 4.0,
+    "STICK": 2.0
+   },
+   "cost_instant_buy": 36,
+   "cost_buy_orders": 2,
+   "sell_instant": 115800,
+   "sell_order_or_bin": 115800,
+   "profit_safe": 115764,
+   "profit_patient": 115798,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 13
+  },
+  {
+   "item": "HARDENED_DIAMOND_HELMET",
+   "name": "Hardened Diamond Helmet",
+   "requirement": "Requires: Diamond VII",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_DIAMOND": 5.0
+   },
+   "cost_instant_buy": 6619,
+   "cost_buy_orders": 6320,
+   "sell_instant": 106042,
+   "sell_order_or_bin": 106042,
+   "profit_safe": 99423,
+   "profit_patient": 99722,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 6
+  },
+  {
+   "item": "GRAVITY_TALISMAN",
+   "name": "Gravity Talisman",
+   "requirement": "Requires: Obsidian III",
+   "output_count": 1,
+   "ingredients": {
+    "OBSIDIAN": 144.0
+   },
+   "cost_instant_buy": 3884,
+   "cost_buy_orders": 1440,
+   "sell_instant": 96499,
+   "sell_order_or_bin": 96499,
+   "profit_safe": 92616,
+   "profit_patient": 95059,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 34
+  },
+  {
+   "item": "PRISMARINE_NECKLACE",
+   "name": "Prismarine Necklace",
+   "requirement": "Requires: Prismarine Shard VII",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_PRISMARINE_SHARD": 4.0,
+    "ENCHANTED_PRISMARINE_CRYSTALS": 1.0
+   },
+   "cost_instant_buy": 1991,
+   "cost_buy_orders": 1614,
+   "sell_instant": 96500,
+   "sell_order_or_bin": 96500,
+   "profit_safe": 94509,
+   "profit_patient": 94886,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 7
+  },
+  {
+   "item": "MAGNETIC_TALISMAN",
+   "name": "Magnetic Talisman",
+   "requirement": "Requires: Emerald III",
+   "output_count": 1,
+   "ingredients": {
+    "EMERALD": 128.0,
+    "REDSTONE": 32.0
+   },
+   "cost_instant_buy": 866,
+   "cost_buy_orders": 90,
+   "sell_instant": 94570,
+   "sell_order_or_bin": 94570,
+   "profit_safe": 93704,
+   "profit_patient": 94480,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 28
+  },
+  {
+   "item": "WEB",
+   "name": "Web",
+   "requirement": "Requires: String II",
+   "output_count": 1,
+   "ingredients": {
+    "STRING": 9.0
+   },
+   "cost_instant_buy": 429,
+   "cost_buy_orders": 20,
+   "sell_instant": 92640,
+   "sell_order_or_bin": 92640,
+   "profit_safe": 92211,
+   "profit_patient": 92620,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 11
+  },
+  {
+   "item": "PET_ITEM_SADDLE",
+   "name": "Saddle",
+   "requirement": "Requires: Leather VII",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_LEATHER": 24.0,
+    "ENCHANTED_IRON": 8.0
+   },
+   "cost_instant_buy": 25262,
+   "cost_buy_orders": 20031,
+   "sell_instant": 96500,
+   "sell_order_or_bin": 96500,
+   "profit_safe": 71238,
+   "profit_patient": 76469,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 3
+  },
+  {
+   "item": "ENDER_BOW",
+   "name": "Ender Bow",
+   "requirement": "Requires: Ender Pearl V",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_ENDER_PEARL": 12.0,
+    "STRING": 3.0
+   },
+   "cost_instant_buy": 3088,
+   "cost_buy_orders": 1084,
+   "sell_instant": 77200,
+   "sell_order_or_bin": 77200,
+   "profit_safe": 74112,
+   "profit_patient": 76116,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 35
+  },
+  {
+   "item": "EMERALD_RING",
+   "name": "Emerald Ring",
+   "requirement": "Requires: Emerald V",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_EMERALD": 32.0
+   },
+   "cost_instant_buy": 24641,
+   "cost_buy_orders": 20806,
+   "sell_instant": 96500,
+   "sell_order_or_bin": 96500,
+   "profit_safe": 71859,
+   "profit_patient": 75694,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 16
+  },
+  {
+   "item": "ENCHANTED_CARROT_STICK",
+   "name": "Enchanted Carrot on a Stick",
+   "requirement": "Requires: Carrot V",
+   "output_count": 1,
+   "ingredients": {
+    "STICK": 3.0,
+    "ENCHANTED_CARROT": 64.0
+   },
+   "cost_instant_buy": 32967,
+   "cost_buy_orders": 29271,
+   "sell_instant": 988,
+   "sell_order_or_bin": 98750,
+   "profit_safe": -31979,
+   "profit_patient": 69479,
    "sell_where": "bazaar",
-   "bazaar_daily_sales": 2,
+   "bazaar_daily_sales": 9,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_HAY_BALE",
+   "name": "Enchanted Hay Bale",
+   "requirement": "Requires: Wheat XI",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_WHEAT": 160.0
+   },
+   "cost_instant_buy": 166228,
+   "cost_buy_orders": 84480,
+   "sell_instant": 146313,
+   "sell_order_or_bin": 151504,
+   "profit_safe": -19915,
+   "profit_patient": 67024,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 81487,
+   "auction_listings": null
+  },
+  {
+   "item": "WAND_OF_HEALING",
+   "name": "Wand of Healing",
+   "requirement": "Requires: Zombie Slayer 1",
+   "output_count": 1,
+   "ingredients": {
+    "REVENANT_FLESH": 16.0,
+    "STICK": 1.0
+   },
+   "cost_instant_buy": 1518,
+   "cost_buy_orders": 1203,
+   "sell_instant": 67550,
+   "sell_order_or_bin": 67550,
+   "profit_safe": 66032,
+   "profit_patient": 66347,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 14
+  },
+  {
+   "item": "GREAT_CARROT_CANDY",
+   "name": "Great Carrot Candy",
+   "requirement": "Requires: Carrot VI",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_CARROT": 320.0,
+    "SIMPLE_CARROT_CANDY": 1.0
+   },
+   "cost_instant_buy": 168343,
+   "cost_buy_orders": 146809,
+   "sell_instant": 167574,
+   "sell_order_or_bin": 209573,
+   "profit_safe": -768,
+   "profit_patient": 62765,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 155,
+   "auction_listings": null
+  },
+  {
+   "item": "GRAPPLING_HOOK",
+   "name": "Grappling Hook",
+   "requirement": "Requires: String IV",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_STRING": 3.0,
+    "STICK": 2.0
+   },
+   "cost_instant_buy": 2986,
+   "cost_buy_orders": 2656,
+   "sell_instant": 57900,
+   "sell_order_or_bin": 57900,
+   "profit_safe": 54914,
+   "profit_patient": 55244,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 58
+  },
+  {
+   "item": "SMALL_BACKPACK",
+   "name": "Small Backpack",
+   "requirement": "Requires: Leather II",
+   "output_count": 1,
+   "ingredients": {
+    "LEATHER": 80.0
+   },
+   "cost_instant_buy": 9920,
+   "cost_buy_orders": 192,
+   "sell_instant": 48249,
+   "sell_order_or_bin": 48249,
+   "profit_safe": 38329,
+   "profit_patient": 48057,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 2
+  },
+  {
+   "item": "ENCHANTED_IRON_BLOCK",
+   "name": "Enchanted Iron Block",
+   "requirement": "Requires: Iron Ingot VII",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_IRON": 160.0
+   },
+   "cost_instant_buy": 49408,
+   "cost_buy_orders": 10240,
+   "sell_instant": 51081,
+   "sell_order_or_bin": 53325,
+   "profit_safe": 1673,
+   "profit_patient": 43085,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 29059,
+   "auction_listings": null
+  },
+  {
+   "item": "CLAY_BRACELET",
+   "name": "Clay Bracelet",
+   "requirement": "Requires: Clay Ball IV",
+   "output_count": 1,
+   "ingredients": {
+    "CLAY_BALL": 96.0,
+    "ENCHANTED_CLAY_BALL": 4.0
+   },
+   "cost_instant_buy": 2748,
+   "cost_buy_orders": 1679,
+   "sell_instant": 43425,
+   "sell_order_or_bin": 43425,
+   "profit_safe": 40677,
+   "profit_patient": 41746,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 14
+  },
+  {
+   "item": "ENCHANTED_FERMENTED_SPIDER_EYE",
+   "name": "Enchanted Fermented Spider Eye",
+   "requirement": "Requires: Spider Eye VII",
+   "output_count": 1,
+   "ingredients": {
+    "BROWN_MUSHROOM": 64.0,
+    "SUGAR": 64.0,
+    "ENCHANTED_SPIDER_EYE": 64.0
+   },
+   "cost_instant_buy": 69525,
+   "cost_buy_orders": 56370,
+   "sell_instant": 78623,
+   "sell_order_or_bin": 86931,
+   "profit_safe": 9098,
+   "profit_patient": 30561,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 3029,
+   "auction_listings": null
+  },
+  {
+   "item": "COMPACTOR",
+   "name": "Compactor",
+   "requirement": "Requires: Cobblestone V",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_COBBLESTONE": 7.0,
+    "ENCHANTED_REDSTONE": 1.0
+   },
+   "cost_instant_buy": 4192,
+   "cost_buy_orders": 3170,
+   "sell_instant": 109,
+   "sell_order_or_bin": 29619,
+   "profit_safe": -4083,
+   "profit_patient": 26449,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 357,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_LAVA_BUCKET",
+   "name": "Enchanted Lava Bucket",
+   "requirement": "Requires: Coal VIII",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_IRON": 3.0,
+    "ENCHANTED_COAL_BLOCK": 2.0
+   },
+   "cost_instant_buy": 54164,
+   "cost_buy_orders": 49921,
+   "sell_instant": 39604,
+   "sell_order_or_bin": 71095,
+   "profit_safe": -14559,
+   "profit_patient": 21174,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 2452,
+   "auction_listings": null
+  },
+  {
+   "item": "FARM_ARMOR_CHESTPLATE",
+   "name": "Haymaker Chestplate",
+   "requirement": "Requires: Wheat VI",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_WHEAT": 8.0,
+    "FARM_SUIT_CHESTPLATE": 1.0
+   },
+   "cost_instant_buy": 8727,
+   "cost_buy_orders": 4435,
+   "sell_instant": 25090,
+   "sell_order_or_bin": 25090,
+   "profit_safe": 16363,
+   "profit_patient": 20655,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 1
+  },
+  {
+   "item": "MEDIUM_ENCHANTED_CHEST",
+   "name": "Medium Storage",
+   "requirement": "Requires: Oak Log VII",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_OAK_LOG": 8.0,
+    "SMALL_ENCHANTED_CHEST": 1.0
+   },
+   "cost_instant_buy": 13997,
+   "cost_buy_orders": 9481,
+   "sell_instant": 12225,
+   "sell_order_or_bin": 28808,
+   "profit_safe": -1772,
+   "profit_patient": 19327,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 947,
+   "auction_listings": null
+  },
+  {
+   "item": "AUTO_SMELTER",
+   "name": "Auto Smelter",
+   "requirement": "Requires: Cobblestone III",
+   "output_count": 1,
+   "ingredients": {
+    "COBBLESTONE": 64.0,
+    "COAL": 1.0
+   },
+   "cost_instant_buy": 232,
+   "cost_buy_orders": 11,
+   "sell_instant": 498,
+   "sell_order_or_bin": 17554,
+   "profit_safe": 266,
+   "profit_patient": 17543,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 217,
+   "auction_listings": null
+  },
+  {
+   "item": "FARM_ARMOR_LEGGINGS",
+   "name": "Haymaker Leggings",
+   "requirement": "Requires: Wheat VI",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_WHEAT": 8.0,
+    "FARM_SUIT_LEGGINGS": 1.0
+   },
+   "cost_instant_buy": 8675,
+   "cost_buy_orders": 4409,
+   "sell_instant": 21712,
+   "sell_order_or_bin": 21712,
+   "profit_safe": 13037,
+   "profit_patient": 17304,
+   "sell_where": "auction",
+   "bazaar_daily_sales": null,
+   "auction_listings": 1
+  },
+  {
+   "item": "BUDGET_HOPPER",
+   "name": "Budget Hopper",
+   "requirement": "Requires: Iron Ingot V",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_IRON": 5.0,
+    "CHEST": 1.0
+   },
+   "cost_instant_buy": 1611,
+   "cost_buy_orders": 326,
+   "sell_instant": 1540,
+   "sell_order_or_bin": 10727,
+   "profit_safe": -70,
+   "profit_patient": 10401,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 415,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_CLAY_BLOCK",
+   "name": "Enchanted Clay Block",
+   "requirement": "Requires: Clay Ball VIII",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_CLAY_BALL": 160.0
+   },
+   "cost_instant_buy": 83040,
+   "cost_buy_orders": 66784,
+   "sell_instant": 74199,
+   "sell_order_or_bin": 75021,
+   "profit_safe": -8841,
+   "profit_patient": 8237,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 259145,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_EYE_OF_ENDER",
+   "name": "Enchanted Eye of Ender",
+   "requirement": "Requires: Ender Pearl VI",
+   "output_count": 1,
+   "ingredients": {
+    "BLAZE_POWDER": 64.0,
+    "ENCHANTED_ENDER_PEARL": 16.0
+   },
+   "cost_instant_buy": 4547,
+   "cost_buy_orders": 1707,
+   "sell_instant": 6948,
+   "sell_order_or_bin": 8452,
+   "profit_safe": 2401,
+   "profit_patient": 6745,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 80170,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_COAL",
+   "name": "Enchanted Coal",
+   "requirement": "Requires: Coal III",
+   "output_count": 9,
+   "ingredients": {
+    "COAL_BLOCK": 160.0
+   },
+   "cost_instant_buy": 11520,
+   "cost_buy_orders": 6796,
+   "sell_instant": 9797,
+   "sell_order_or_bin": 11176,
+   "profit_safe": -1723,
+   "profit_patient": 4381,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 11206926,
+   "auction_listings": null
+  },
+  {
+   "item": "SMALL_ENCHANTED_CHEST",
+   "name": "Small Storage",
+   "requirement": "Requires: Oak Log IV",
+   "output_count": 1,
+   "ingredients": {
+    "LOG": 64.0
+   },
+   "cost_instant_buy": 2131,
+   "cost_buy_orders": 186,
+   "sell_instant": 99,
+   "sell_order_or_bin": 3865,
+   "profit_safe": -2032,
+   "profit_patient": 3679,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 491,
+   "auction_listings": null
+  },
+  {
+   "item": "SIMPLE_CARROT_CANDY",
+   "name": "Simple Carrot Candy",
+   "requirement": "Requires: Carrot II",
+   "output_count": 1,
+   "ingredients": {
+    "CARROT_ITEM": 576.0
+   },
+   "cost_instant_buy": 3571,
+   "cost_buy_orders": 461,
+   "sell_instant": 198,
+   "sell_order_or_bin": 3758,
+   "profit_safe": -3373,
+   "profit_patient": 3297,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 1109,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_EGG",
+   "name": "Enchanted Egg",
+   "requirement": "Requires: Raw Chicken V",
+   "output_count": 1,
+   "ingredients": {
+    "EGG": 144.0
+   },
+   "cost_instant_buy": 2347,
+   "cost_buy_orders": 72,
+   "sell_instant": 1639,
+   "sell_order_or_bin": 2374,
+   "profit_safe": -708,
+   "profit_patient": 2302,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 175137,
+   "auction_listings": null
+  },
+  {
+   "item": "BOX_OF_SEEDS",
+   "name": "Box of Seeds",
+   "requirement": "Requires: Seeds VII",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_SEEDS": 160.0
+   },
+   "cost_instant_buy": 84626,
+   "cost_buy_orders": 73392,
+   "sell_instant": 74103,
+   "sell_order_or_bin": 75614,
+   "profit_safe": -10523,
+   "profit_patient": 2222,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 71477,
+   "auction_listings": null
+  },
+  {
+   "item": "LIGHT_BAIT",
+   "name": "Light Bait",
+   "requirement": "Requires: Prismarine Crystals II",
+   "output_count": 1,
+   "ingredients": {
+    "PRISMARINE_CRYSTALS": 2.0,
+    "RAW_FISH": 1.0
+   },
+   "cost_instant_buy": 2227,
+   "cost_buy_orders": 1871,
+   "sell_instant": 725,
+   "sell_order_or_bin": 3849,
+   "profit_safe": -1502,
+   "profit_patient": 1978,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 13441,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_CHARCOAL",
+   "name": "Enchanted Charcoal",
+   "requirement": "Requires: Coal V",
+   "output_count": 1,
+   "ingredients": {
+    "COAL": 128.0,
+    "LOG_2": 32.0
+   },
+   "cost_instant_buy": 3306,
+   "cost_buy_orders": 660,
+   "sell_instant": 346,
+   "sell_order_or_bin": 2467,
+   "profit_safe": -2960,
+   "profit_patient": 1807,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 2201,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_CHARCOAL",
+   "name": "Enchanted Charcoal",
+   "requirement": "Requires: Coal V",
+   "output_count": 1,
+   "ingredients": {
+    "COAL": 128.0,
+    "LOG": 32.0
+   },
+   "cost_instant_buy": 2090,
+   "cost_buy_orders": 697,
+   "sell_instant": 346,
+   "sell_order_or_bin": 2467,
+   "profit_safe": -1744,
+   "profit_patient": 1770,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 2201,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_PAPER",
+   "name": "Enchanted Paper",
+   "requirement": "Requires: Sugar Cane V",
+   "output_count": 1,
+   "ingredients": {
+    "SUGAR_CANE": 192.0
+   },
+   "cost_instant_buy": 1478,
+   "cost_buy_orders": 346,
+   "sell_instant": 1245,
+   "sell_order_or_bin": 1919,
+   "profit_safe": -233,
+   "profit_patient": 1573,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 34260,
+   "auction_listings": null
+  },
+  {
+   "item": "GRAND_EXP_BOTTLE",
+   "name": "Grand Experience Bottle",
+   "requirement": "Requires: Lapis Lazuli V",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_LAPIS_LAZULI": 6.0,
+    "GLASS_BOTTLE": 1.0
+   },
+   "cost_instant_buy": 5084,
+   "cost_buy_orders": 4298,
+   "sell_instant": 5232,
+   "sell_order_or_bin": 5571,
+   "profit_safe": 148,
+   "profit_patient": 1273,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 209197,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_OBSIDIAN",
+   "name": "Enchanted Obsidian",
+   "requirement": "Requires: Obsidian IV",
+   "output_count": 1,
+   "ingredients": {
+    "OBSIDIAN": 160.0
+   },
+   "cost_instant_buy": 4315,
+   "cost_buy_orders": 1600,
+   "sell_instant": 2558,
+   "sell_order_or_bin": 2832,
+   "profit_safe": -1757,
+   "profit_patient": 1232,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 2495173,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_SPONGE",
+   "name": "Enchanted Sponge",
+   "requirement": "Requires: Sponge III",
+   "output_count": 1,
+   "ingredients": {
+    "SPONGE": 40.0
+   },
+   "cost_instant_buy": 3994,
+   "cost_buy_orders": 1122,
+   "sell_instant": 1871,
+   "sell_order_or_bin": 2191,
+   "profit_safe": -2123,
+   "profit_patient": 1068,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 213763,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_CHARCOAL",
+   "name": "Enchanted Charcoal",
+   "requirement": "Requires: Coal V",
+   "output_count": 1,
+   "ingredients": {
+    "COAL": 128.0,
+    "LOG-1": 32.0
+   },
+   "cost_instant_buy": 1824,
+   "cost_buy_orders": 1404,
+   "sell_instant": 346,
+   "sell_order_or_bin": 2467,
+   "profit_safe": -1478,
+   "profit_patient": 1063,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 2201,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_CHARCOAL",
+   "name": "Enchanted Charcoal",
+   "requirement": "Requires: Coal V",
+   "output_count": 1,
+   "ingredients": {
+    "COAL": 128.0,
+    "LOG-2": 32.0
+   },
+   "cost_instant_buy": 1824,
+   "cost_buy_orders": 1404,
+   "sell_instant": 346,
+   "sell_order_or_bin": 2467,
+   "profit_safe": -1478,
+   "profit_patient": 1063,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 2201,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_CHARCOAL",
+   "name": "Enchanted Charcoal",
+   "requirement": "Requires: Coal V",
+   "output_count": 1,
+   "ingredients": {
+    "COAL": 128.0,
+    "LOG-3": 32.0
+   },
+   "cost_instant_buy": 1824,
+   "cost_buy_orders": 1404,
+   "sell_instant": 346,
+   "sell_order_or_bin": 2467,
+   "profit_safe": -1478,
+   "profit_patient": 1063,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 2201,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_CHARCOAL",
+   "name": "Enchanted Charcoal",
+   "requirement": "Requires: Coal V",
+   "output_count": 1,
+   "ingredients": {
+    "COAL": 128.0,
+    "LOG_2-1": 32.0
+   },
+   "cost_instant_buy": 1824,
+   "cost_buy_orders": 1404,
+   "sell_instant": 346,
+   "sell_order_or_bin": 2467,
+   "profit_safe": -1478,
+   "profit_patient": 1063,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 2201,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_BONE",
+   "name": "Enchanted Bone",
+   "requirement": "Requires: Bone V",
+   "output_count": 1,
+   "ingredients": {
+    "BONE": 160.0
+   },
+   "cost_instant_buy": 1309,
+   "cost_buy_orders": 192,
+   "sell_instant": 547,
+   "sell_order_or_bin": 1201,
+   "profit_safe": -762,
+   "profit_patient": 1009,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 260952,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_OAK_LOG",
+   "name": "Enchanted Oak Log",
+   "requirement": "Requires: Oak Log VI",
+   "output_count": 1,
+   "ingredients": {
+    "LOG": 160.0
+   },
+   "cost_instant_buy": 5328,
+   "cost_buy_orders": 464,
+   "sell_instant": 1147,
+   "sell_order_or_bin": 1465,
+   "profit_safe": -4181,
+   "profit_patient": 1001,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 456501,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_SPIDER_EYE",
+   "name": "Enchanted Spider Eye",
+   "requirement": "Requires: Spider Eye IV",
+   "output_count": 1,
+   "ingredients": {
+    "SPIDER_EYE": 160.0
+   },
+   "cost_instant_buy": 2336,
+   "cost_buy_orders": 160,
+   "sell_instant": 862,
+   "sell_order_or_bin": 1059,
+   "profit_safe": -1474,
+   "profit_patient": 899,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 820685,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_REDSTONE",
+   "name": "Enchanted Redstone Dust",
+   "requirement": "Requires: Redstone Dust II",
+   "output_count": 1,
+   "ingredients": {
+    "REDSTONE": 160.0
+   },
+   "cost_instant_buy": 875,
+   "cost_buy_orders": 64,
+   "sell_instant": 651,
+   "sell_order_or_bin": 768,
+   "profit_safe": -224,
+   "profit_patient": 704,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 936693,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_EMERALD",
+   "name": "Enchanted Emerald",
+   "requirement": "Requires: Emerald IV",
+   "output_count": 1,
+   "ingredients": {
+    "EMERALD": 160.0
+   },
+   "cost_instant_buy": 864,
+   "cost_buy_orders": 96,
+   "sell_instant": 642,
+   "sell_order_or_bin": 760,
+   "profit_safe": -222,
+   "profit_patient": 664,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 197379,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_STRING",
+   "name": "Enchanted String",
+   "requirement": "Requires: String IV",
+   "output_count": 1,
+   "ingredients": {
+    "STRING": 160.0
+   },
+   "cost_instant_buy": 7632,
+   "cost_buy_orders": 352,
+   "sell_instant": 874,
+   "sell_order_or_bin": 980,
+   "profit_safe": -6758,
+   "profit_patient": 628,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 2052296,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_PUMPKIN",
+   "name": "Enchanted Pumpkin",
+   "requirement": "Requires: Pumpkin III",
+   "output_count": 1,
+   "ingredients": {
+    "PUMPKIN": 160.0
+   },
+   "cost_instant_buy": 2060,
+   "cost_buy_orders": 1055,
+   "sell_instant": 1551,
+   "sell_order_or_bin": 1626,
+   "profit_safe": -509,
+   "profit_patient": 572,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 3457933,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_LEATHER",
+   "name": "Enchanted Leather",
+   "requirement": "Requires: Leather IV",
+   "output_count": 1,
+   "ingredients": {
+    "LEATHER": 160.0
+   },
+   "cost_instant_buy": 19840,
+   "cost_buy_orders": 384,
+   "sell_instant": 803,
+   "sell_order_or_bin": 938,
+   "profit_safe": -19037,
+   "profit_patient": 554,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 315565,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_ROTTEN_FLESH",
+   "name": "Enchanted Rotten Flesh",
+   "requirement": "Requires: Rotten Flesh IV",
+   "output_count": 1,
+   "ingredients": {
+    "ROTTEN_FLESH": 160.0
+   },
+   "cost_instant_buy": 1032,
+   "cost_buy_orders": 89,
+   "sell_instant": 529,
+   "sell_order_or_bin": 615,
+   "profit_safe": -503,
+   "profit_patient": 526,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 1436434,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_WHEAT",
+   "name": "Enchanted Wheat",
+   "requirement": "Requires: Wheat V",
+   "output_count": 1,
+   "ingredients": {
+    "WHEAT": 160.0
+   },
+   "cost_instant_buy": 1039,
+   "cost_buy_orders": 528,
+   "sell_instant": 926,
+   "sell_order_or_bin": 1045,
+   "profit_safe": -113,
+   "profit_patient": 517,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 18929440,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_CLAY_BALL",
+   "name": "Enchanted Clay Ball",
+   "requirement": "Requires: Clay Ball III",
+   "output_count": 1,
+   "ingredients": {
+    "CLAY_BALL": 160.0
+   },
+   "cost_instant_buy": 1120,
+   "cost_buy_orders": 16,
+   "sell_instant": 412,
+   "sell_order_or_bin": 513,
+   "profit_safe": -708,
+   "profit_patient": 497,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 604849,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_COAL",
+   "name": "Enchanted Coal",
+   "requirement": "Requires: Coal III",
+   "output_count": 1,
+   "ingredients": {
+    "COAL": 160.0
+   },
+   "cost_instant_buy": 1280,
+   "cost_buy_orders": 755,
+   "sell_instant": 1089,
+   "sell_order_or_bin": 1242,
+   "profit_safe": -191,
+   "profit_patient": 487,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 11206926,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_GOLD",
+   "name": "Enchanted Gold Ingot",
+   "requirement": "Requires: Gold Ingot IV",
+   "output_count": 1,
+   "ingredients": {
+    "GOLD_INGOT": 160.0
+   },
+   "cost_instant_buy": 1110,
+   "cost_buy_orders": 49,
+   "sell_instant": 436,
+   "sell_order_or_bin": 494,
+   "profit_safe": -674,
+   "profit_patient": 446,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 3549196,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_SEEDS",
+   "name": "Enchanted Seeds",
+   "requirement": "Requires: Seeds III",
+   "output_count": 1,
+   "ingredients": {
+    "SEEDS": 160.0
+   },
+   "cost_instant_buy": 632,
+   "cost_buy_orders": 85,
+   "sell_instant": 453,
+   "sell_order_or_bin": 522,
+   "profit_safe": -179,
+   "profit_patient": 437,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 23294198,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_PRISMARINE_SHARD",
+   "name": "Enchanted Prismarine Shard",
+   "requirement": "Requires: Prismarine Shard III",
+   "output_count": 1,
+   "ingredients": {
+    "PRISMARINE_SHARD": 80.0
+   },
+   "cost_instant_buy": 800,
+   "cost_buy_orders": 8,
+   "sell_instant": 316,
+   "sell_order_or_bin": 396,
+   "profit_safe": -484,
+   "profit_patient": 388,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 515944,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_SUGAR",
+   "name": "Enchanted Sugar",
+   "requirement": "Requires: Sugar Cane IV",
+   "output_count": 1,
+   "ingredients": {
+    "SUGAR_CANE": 160.0
+   },
+   "cost_instant_buy": 1232,
+   "cost_buy_orders": 288,
+   "sell_instant": 609,
+   "sell_order_or_bin": 671,
+   "profit_safe": -623,
+   "profit_patient": 383,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 4905511,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_CARROT",
+   "name": "Enchanted Carrot",
+   "requirement": "Requires: Carrot IV",
+   "output_count": 1,
+   "ingredients": {
+    "CARROT_ITEM": 160.0
+   },
+   "cost_instant_buy": 992,
+   "cost_buy_orders": 128,
+   "sell_instant": 452,
+   "sell_order_or_bin": 508,
+   "profit_safe": -540,
+   "profit_patient": 380,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 8709116,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_POTATO",
+   "name": "Enchanted Potato",
+   "requirement": "Requires: Potato IV",
+   "output_count": 1,
+   "ingredients": {
+    "POTATO_ITEM": 160.0
+   },
+   "cost_instant_buy": 679,
+   "cost_buy_orders": 96,
+   "sell_instant": 452,
+   "sell_order_or_bin": 472,
+   "profit_safe": -226,
+   "profit_patient": 376,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 14448908,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_IRON",
+   "name": "Enchanted Iron Ingot",
+   "requirement": "Requires: Iron Ingot IV",
+   "output_count": 1,
+   "ingredients": {
+    "IRON_INGOT": 160.0
+   },
+   "cost_instant_buy": 309,
+   "cost_buy_orders": 64,
+   "sell_instant": 379,
+   "sell_order_or_bin": 413,
+   "profit_safe": 70,
+   "profit_patient": 349,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 533891,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_DIAMOND",
+   "name": "Enchanted Diamond",
+   "requirement": "Requires: Diamond IV",
+   "output_count": 1,
+   "ingredients": {
+    "DIAMOND": 160.0
+   },
+   "cost_instant_buy": 1328,
+   "cost_buy_orders": 992,
+   "sell_instant": 1248,
+   "sell_order_or_bin": 1307,
+   "profit_safe": -80,
+   "profit_patient": 315,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 3264308,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_ENDSTONE",
+   "name": "Enchanted End Stone",
+   "requirement": "Requires: End Stone IV",
+   "output_count": 1,
+   "ingredients": {
+    "ENDER_STONE": 160.0
+   },
+   "cost_instant_buy": 784,
+   "cost_buy_orders": 16,
+   "sell_instant": 267,
+   "sell_order_or_bin": 310,
+   "profit_safe": -517,
+   "profit_patient": 294,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 1009214,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_MITHRIL",
+   "name": "Enchanted Mithril",
+   "requirement": "Requires: Mithril III",
+   "output_count": 1,
+   "ingredients": {
+    "MITHRIL_ORE": 160.0
+   },
+   "cost_instant_buy": 1289,
+   "cost_buy_orders": 1002,
+   "sell_instant": 1213,
+   "sell_order_or_bin": 1274,
+   "profit_safe": -76,
+   "profit_patient": 273,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 4628114,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_DIAMOND_BLOCK",
+   "name": "Enchanted Diamond Block",
+   "requirement": "Requires: Diamond VIII",
+   "output_count": 1,
+   "ingredients": {
+    "ENCHANTED_DIAMOND": 160.0
+   },
+   "cost_instant_buy": 211814,
+   "cost_buy_orders": 202230,
+   "sell_instant": 200138,
+   "sell_order_or_bin": 202496,
+   "profit_safe": -11677,
+   "profit_patient": 266,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 202083,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_BREAD",
+   "name": "Enchanted Bread",
+   "requirement": "Requires: Wheat V",
+   "output_count": 1,
+   "ingredients": {
+    "WHEAT": 60.0
+   },
+   "cost_instant_buy": 390,
+   "cost_buy_orders": 198,
+   "sell_instant": 7,
+   "sell_order_or_bin": 431,
+   "profit_safe": -383,
+   "profit_patient": 233,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 22746,
+   "auction_listings": null
+  },
+  {
+   "item": "ENCHANTED_ENDER_PEARL",
+   "name": "Enchanted Ender Pearl",
+   "requirement": "Requires: Ender Pearl II",
+   "output_count": 1,
+   "ingredients": {
+    "ENDER_PEARL": 20.0
+   },
+   "cost_instant_buy": 245,
+   "cost_buy_orders": 90,
+   "sell_instant": 193,
+   "sell_order_or_bin": 258,
+   "profit_safe": -53,
+   "profit_patient": 168,
+   "sell_where": "bazaar",
+   "bazaar_daily_sales": 1462388,
    "auction_listings": null
   }
  ]
