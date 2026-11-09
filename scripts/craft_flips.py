@@ -11,9 +11,9 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.error
 import urllib.request
-from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -35,7 +35,16 @@ SLAYERS = {
 }
 
 
+REQUEST_INTERVAL = 1.0  # Seconds between API requests.
+_last_request = 0.0
+
+
 def get_json(url, key=None):
+    global _last_request
+    wait = _last_request + REQUEST_INTERVAL - time.monotonic()
+    if wait > 0:
+        time.sleep(wait)
+    _last_request = time.monotonic()
     headers = {"User-Agent": "sbs-craft-flips"}
     if key:
         headers["API-Key"] = key
@@ -178,11 +187,8 @@ def auction_item_id(item_bytes):
 def lowest_bins():
     first = get_json(f"{API}/skyblock/auctions?page=0")
     pages = [first]
-    with ThreadPoolExecutor(max_workers=8) as pool:
-        pages += list(pool.map(
-            lambda n: get_json(f"{API}/skyblock/auctions?page={n}"),
-            range(1, first.get("totalPages", 1)),
-        ))
+    for number in range(1, first.get("totalPages", 1)):
+        pages.append(get_json(f"{API}/skyblock/auctions?page={number}"))
     prices, listings = {}, {}
     for page in pages:
         for auction in page.get("auctions", []):
