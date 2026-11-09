@@ -340,6 +340,9 @@ def main():
         "slayer_levels": slayers,
         "skipped": skipped,
         "recipes": [r for r in results if r["profit_patient"] > 0][:300],
+        "collection_recipes": [
+            r for r in results if r["requirement"] and r["profit_patient"] > 0
+        ],
     }, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"Saved {OUTPUT} with {len(results)} priced recipes")
 
