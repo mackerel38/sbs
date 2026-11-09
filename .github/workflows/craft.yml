@@ -1,0 +1,32 @@
+name: Find craft flips
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  craft:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Download recipe data
+        run: git clone --depth 1 https://github.com/NotEnoughUpdates/NotEnoughUpdates-REPO neu-repo
+      - name: Find craft flips
+        env:
+          HYPIXEL_API_KEY: ${{ secrets.HYPIXEL_API_KEY }}
+          MINECRAFT_UUID: 67e1b8b194d247069bcdb7e5d88c0402
+          PROFILE_NAME: Kiwi
+          NEU_REPO: neu-repo
+        run: python scripts/craft_flips.py
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/craft_flips.json
+          git diff --cached --quiet || git commit -m "Update craft flips"
+          git push
