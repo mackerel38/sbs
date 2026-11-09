@@ -1,19 +1,20 @@
 {
-  "fetched_at": "2026-11-05T18:21:39+00:00",
+  "fetched_at": "2026-11-09T07:16:04+00:00",
   "profile": "Kiwi",
   "game_mode": "normal",
-  "skyblock_xp": 3971,
+  "skyblock_xp": 4285,
   "skills_xp": {
-    "foraging": 28552.925000000352,
-    "mining": 432609.6234999995,
-    "fishing": 33361.32499999998,
-    "farming": 773647.9000000067,
-    "combat": 547634.8200000051,
+    "foraging": 28783.325000000405,
+    "mining": 465582.9984999995,
+    "fishing": 35588.22499999997,
+    "farming": 774657.5000000097,
+    "combat": 689754.5400000139,
     "enchanting": 1421622.6170414486,
-    "runecrafting": 795.9000000000001,
-    "taming": 329105.7060837708,
+    "runecrafting": 1965.2000000000003,
+    "taming": 375111.0203046164,
     "social": 37.25,
-    "carpentry": 3347.040000000001
+    "carpentry": 426637.439999998,
+    "alchemy": 250.0
   },
   "dungeons": {
     "catacombs_xp": 6436.458893391145,
@@ -64,7 +65,7 @@
     },
     {
       "type": "GRANDMA_WOLF",
-      "tier": "COMMON",
+      "tier": "LEGENDARY",
       "exp": 0.0,
       "active": false,
       "item": null
@@ -86,8 +87,15 @@
     {
       "type": "RAT",
       "tier": "LEGENDARY",
-      "exp": 321262.2140021008,
+      "exp": 505305.7833854285,
       "active": true,
+      "item": null
+    },
+    {
+      "type": "TARANTULA",
+      "tier": "EPIC",
+      "exp": 0.0,
+      "active": false,
       "item": null
     }
   ],
@@ -272,6 +280,10 @@
       {
         "name": "SkyBlock Menu (Click)",
         "id": "SKYBLOCK_MENU"
+      },
+      {
+        "name": "Festering Fly",
+        "id": "FESTERING_FLY"
       }
     ],
     "wardrobe": [],
@@ -315,10 +327,6 @@
       {
         "name": "Feather Talisman",
         "id": "FEATHER_TALISMAN"
-      },
-      {
-        "name": "Personal Compactor 4000",
-        "id": "PERSONAL_COMPACTOR_4000"
       },
       {
         "name": "Personal Compactor 4000",
@@ -383,10 +391,14 @@
       {
         "name": "King Talisman",
         "id": "KING_TALISMAN"
+      },
+      {
+        "name": "Emerald Ring",
+        "id": "EMERALD_RING"
       }
     ]
   },
-  "accessory_power": 101,
+  "accessory_power": 106,
   "hotm": null,
   "member_keys": [
     "accessory_bag_storage",
