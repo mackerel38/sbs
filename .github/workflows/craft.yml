@@ -23,6 +23,8 @@ jobs:
           PROFILE_NAME: Kiwi
           NEU_REPO: neu-repo
         run: python scripts/craft_flips.py
+      - name: Check recent sales
+        run: python scripts/sales_check.py
       - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
