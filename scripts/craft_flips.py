@@ -94,14 +94,38 @@ def slayer_levels(member):
     return levels
 
 
-def requirement_status(text, collections, slayers):
+HOTM_XP = [0, 3000, 12000, 37000, 97000, 197000, 347000, 557000, 847000, 1247000]
+
+
+def hotm_tier(member):
+    """Return the Heart of the Mountain tier, or None when the API hides it."""
+    experience = member.get("mining_core", {}).get("experience")
+    if experience is None:
+        experience = member.get("skill_tree", {}).get("experience", {}).get("mining")
+    if experience is None:
+        return None
+    return sum(1 for need in HOTM_XP if experience >= need)
+
+
+def requirement_status(text, collections, slayers, hotm=None):
     """Return (True, None) when met, or (False, reason)."""
     if not text:
+        return True, None
+    parts = re.sub(r"^Requires:?\s*", "", text).split(" & ")
+    if len(parts) > 1:
+        for part in parts:
+            ok, _ = requirement_status(f"Requires: {part}", collections, slayers, hotm)
+            if not ok:
+                return False, text
         return True, None
     match = REQUIREMENT.match(text)
     if not match:
         return False, text
     name, level = match.group(1), roman_to_int(match.group(2))
+    if name == "HotM":
+        if hotm is None:
+            return False, f"{text} (not checked)"
+        return (True, None) if hotm >= level else (False, text)
     if name in SLAYERS:
         if slayers.get(SLAYERS[name], 0) >= level:
             return True, None
@@ -159,6 +183,42 @@ def npc_prices(items):
             per_unit = float(cost[0].split(":")[1]) / float(amount or 1)
             prices[result_id] = min(per_unit, prices.get(result_id, per_unit))
     return prices
+
+
+def npc_offers(items):
+    """Yield coins-only NPC shop offers as dicts."""
+    for npc_id, item in items.items():
+        for recipe in item.get("recipes", []):
+            if recipe.get("type") != "npc_shop":
+                continue
+            cost = recipe.get("cost", [])
+            if len(cost) != 1 or not cost[0].startswith("SKYBLOCK_COIN:"):
+                continue
+            result_id, _, amount = (recipe.get("result") or "").partition(":")
+            if not result_id:
+                continue
+            yield {
+                "npc": re.sub("§.", "", item.get("displayname", npc_id)),
+                "island": item.get("island"),
+                "item": result_id,
+                "amount": float(amount or 1),
+                "coins": float(cost[0].split(":")[1]),
+            }
+
+
+def forge_recipes(item):
+    """Yield (ingredients, coins, output count, hours) for Forge recipes."""
+    for recipe in item.get("recipes", []):
+        if recipe.get("type") != "forge":
+            continue
+        ingredients, coins = {}, 0.0
+        for value in recipe.get("inputs", []):
+            item_id, _, amount = value.partition(":")
+            if item_id == "SKYBLOCK_COIN":
+                coins += float(amount or 0)
+            else:
+                ingredients[item_id] = ingredients.get(item_id, 0) + float(amount or 1)
+        yield ingredients, coins, int(float(recipe.get("count", 1) or 1)), recipe.get("duration", 0) / 3600
 
 
 def is_mutation(item):
@@ -228,6 +288,7 @@ def main():
 
     collections = unlocked_collections(member, get_json(f"{API}/resources/skyblock/collections"))
     slayers = slayer_levels(member)
+    hotm = hotm_tier(member)
     bazaar = get_json(f"{API}/skyblock/bazaar").get("products", {})
     bins, listings = lowest_bins()
     items = load_items(repo)
@@ -260,7 +321,7 @@ def main():
         if depth < 3:
             for ingredients, count in crafting_recipes(items.get(item_id, {})):
                 ok, _ = requirement_status(
-                    items.get(item_id, {}).get("crafttext", ""), collections, slayers
+                    items.get(item_id, {}).get("crafttext", ""), collections, slayers, hotm
                 )
                 if not ok:
                     continue
@@ -283,11 +344,29 @@ def main():
             order += cost[1] * amount
         return instant, order
 
+    def sell_value(item_id, count):
+        """Return (instant, order or BIN, daily Bazaar sales, where) after tax."""
+        status = bazaar.get(item_id, {}).get("quick_status")
+        if status and status.get("buyPrice", 0) > 0:
+            return (
+                status.get("sellPrice", 0) * count * (1 - BAZAAR_TAX),
+                status["buyPrice"] * count * (1 - BAZAAR_TAX),
+                round(status.get("sellMovingWeek", 0) / 7),
+                "bazaar",
+            )
+        if item_id in bins:
+            value = bins[item_id] * count * (1 - AUCTION_TAX)
+            return value, value, None, "auction"
+        return None
+
+    def display(item_id):
+        return re.sub("§.", "", items.get(item_id, {}).get("displayname", item_id))
+
     results = []
     skipped = {"requirement": 0, "unpriced_input": 0, "unpriced_output": 0}
     for item_id, item in items.items():
         for ingredients, count in crafting_recipes(item):
-            ok, reason = requirement_status(item.get("crafttext", ""), collections, slayers)
+            ok, reason = requirement_status(item.get("crafttext", ""), collections, slayers, hotm)
             if not ok:
                 skipped["requirement"] += 1
                 continue
@@ -295,19 +374,11 @@ def main():
             if cost is None:
                 skipped["unpriced_input"] += 1
                 continue
-            status = bazaar.get(item_id, {}).get("quick_status")
-            if status and status.get("buyPrice", 0) > 0:
-                sell_instant = status.get("sellPrice", 0) * count * (1 - BAZAAR_TAX)
-                sell_order = status["buyPrice"] * count * (1 - BAZAAR_TAX)
-                volume = round(status.get("sellMovingWeek", 0) / 7)
-                where = "bazaar"
-            elif item_id in bins:
-                sell_instant = sell_order = bins[item_id] * count * (1 - AUCTION_TAX)
-                volume = None
-                where = "auction"
-            else:
+            value = sell_value(item_id, count)
+            if value is None:
                 skipped["unpriced_output"] += 1
                 continue
+            sell_instant, sell_order, volume, where = value
             results.append({
                 "item": item_id,
                 "name": re.sub("§.", "", item.get("displayname", item_id)),
@@ -326,6 +397,67 @@ def main():
             })
 
     results.sort(key=lambda r: r["profit_patient"], reverse=True)
+
+    npc_flips = []
+    for offer in npc_offers(items):
+        unit = offer["coins"] / offer["amount"]
+        value = sell_value(offer["item"], 1)
+        if value is None:
+            continue
+        sell_instant, sell_order, volume, where = value
+        if sell_order <= unit:
+            continue
+        npc_flips.append({
+            "item": offer["item"],
+            "name": display(offer["item"]),
+            "npc": offer["npc"],
+            "island": offer["island"],
+            "npc_price": round(unit, 2),
+            "sell_instant": round(sell_instant, 2),
+            "sell_order_or_bin": round(sell_order, 2),
+            "profit_safe": round(sell_instant - unit, 2),
+            "profit_patient": round(sell_order - unit, 2),
+            "profit_safe_pct": round((sell_instant - unit) / unit * 100, 1) if unit else None,
+            "sell_where": where,
+            "bazaar_daily_sales": volume,
+            "auction_listings": listings.get(offer["item"]),
+        })
+    npc_flips.sort(key=lambda r: r["profit_safe"], reverse=True)
+
+    forge = []
+    for item_id, item in items.items():
+        for ingredients, coins, count, hours in forge_recipes(item):
+            requirement = item.get("crafttext") or None
+            ok, _ = requirement_status(requirement or "", collections, slayers, hotm)
+            cost = recipe_cost(ingredients, 1)
+            value = sell_value(item_id, count)
+            if cost is None or value is None:
+                continue
+            sell_instant, sell_order, volume, where = value
+            profit = sell_order - cost[1] - coins
+            if profit <= 0:
+                continue
+            forge.append({
+                "item": item_id,
+                "name": display(item_id),
+                "requirement": requirement,
+                "requirement_met": ok,
+                "ingredients": ingredients,
+                "coins": coins,
+                "hours": round(hours, 2),
+                "cost_instant_buy": round(cost[0] + coins),
+                "cost_buy_orders": round(cost[1] + coins),
+                "sell_instant": round(sell_instant),
+                "sell_order_or_bin": round(sell_order),
+                "profit_safe": round(sell_instant - cost[0] - coins),
+                "profit_patient": round(profit),
+                "profit_per_hour": round(profit / hours) if hours else None,
+                "sell_where": where,
+                "bazaar_daily_sales": volume,
+                "auction_listings": listings.get(item_id),
+            })
+    forge.sort(key=lambda r: r["profit_patient"], reverse=True)
+
     OUTPUT.parent.mkdir(exist_ok=True)
     OUTPUT.write_text(json.dumps({
         "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -338,11 +470,17 @@ def main():
         },
         "unlocked_collections": collections,
         "slayer_levels": slayers,
+        "hotm_tier": hotm,
         "skipped": skipped,
         "recipes": [r for r in results if r["profit_patient"] > 0][:300],
         "collection_recipes": [
             r for r in results if r["requirement"] and r["profit_patient"] > 0
         ],
+        "bazaar_crafts": [
+            r for r in results if r["sell_where"] == "bazaar" and r["profit_patient"] > 0
+        ][:200],
+        "npc_flips": npc_flips[:200],
+        "forge": forge[:200],
     }, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"Saved {OUTPUT} with {len(results)} priced recipes")
 
