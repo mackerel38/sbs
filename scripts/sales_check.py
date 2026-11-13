@@ -60,6 +60,31 @@ def main():
 
     checked.sort(key=lambda r: r.get("profit_by_sales", float("-inf")), reverse=True)
     data["sales_checked"] = checked
+
+    extra = [
+        ("npc_flips_checked", [
+            r for r in data.get("npc_flips", []) if r["sell_where"] == "auction"
+        ][:40], "npc_price"),
+        ("forge_checked", [
+            r for r in data.get("forge", [])
+            if r["sell_where"] == "auction" and r["requirement_met"]
+        ][:20], "cost_instant_buy"),
+    ]
+    for key, rows, cost_field in extra:
+        results = []
+        for recipe in rows:
+            result = dict(recipe)
+            try:
+                result.update(summarize(get_json(HISTORY.format(item=recipe["item"]))))
+            except (urllib.error.URLError, ValueError, TimeoutError) as error:
+                result["sales_error"] = str(error)
+            if result.get("week_avg_sold"):
+                sold = result["week_avg_sold"] * (1 - AUCTION_TAX)
+                result["profit_by_sales"] = round(sold - recipe[cost_field])
+            results.append(result)
+            time.sleep(1)
+        results.sort(key=lambda r: r.get("profit_by_sales", float("-inf")), reverse=True)
+        data[key] = results
     DATA.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"Checked sales for {len(checked)} recipes")
 
