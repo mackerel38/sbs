@@ -1,19 +1,19 @@
 {
-  "fetched_at": "2026-11-09T07:16:04+00:00",
+  "fetched_at": "2026-11-13T02:35:12+00:00",
   "profile": "Kiwi",
   "game_mode": "normal",
-  "skyblock_xp": 4285,
+  "skyblock_xp": 5237,
   "skills_xp": {
-    "foraging": 28783.325000000405,
-    "mining": 465582.9984999995,
-    "fishing": 35588.22499999997,
-    "farming": 774657.5000000097,
-    "combat": 689754.5400000139,
-    "enchanting": 1421622.6170414486,
-    "runecrafting": 1965.2000000000003,
-    "taming": 375111.0203046164,
+    "foraging": 29034.625000000462,
+    "mining": 673439.7985000005,
+    "fishing": 39910.224999999904,
+    "farming": 780678.7000000199,
+    "combat": 700652.9600000153,
+    "enchanting": 1422008.6814790752,
+    "runecrafting": 2025.7000000000003,
+    "taming": 433894.68156898743,
     "social": 37.25,
-    "carpentry": 426637.439999998,
+    "carpentry": 1845769.5599999984,
     "alchemy": 250.0
   },
   "dungeons": {
@@ -45,7 +45,7 @@
     {
       "type": "ROCK",
       "tier": "COMMON",
-      "exp": 1762.0123333333352,
+      "exp": 209853.80029000394,
       "active": false,
       "item": null
     },
@@ -59,8 +59,8 @@
     {
       "type": "ENDERMAN",
       "tier": "UNCOMMON",
-      "exp": 1259230.215360271,
-      "active": false,
+      "exp": 1285528.509293621,
+      "active": true,
       "item": null
     },
     {
@@ -87,8 +87,8 @@
     {
       "type": "RAT",
       "tier": "LEGENDARY",
-      "exp": 505305.7833854285,
-      "active": true,
+      "exp": 509301.93375735194,
+      "active": false,
       "item": null
     },
     {
@@ -258,17 +258,6 @@
         }
       },
       {
-        "name": "Magnetic Stonk",
-        "id": "STONK_PICKAXE",
-        "reforge": "magnetic",
-        "enchantments": {
-          "efficiency": 6,
-          "smelting_touch": 1,
-          "fortune": 3,
-          "experience": 3
-        }
-      },
-      {
         "name": "Fractured Mithril Pickaxe",
         "id": "FRACTURED_MITHRIL_PICKAXE",
         "enchantments": {
@@ -280,10 +269,6 @@
       {
         "name": "SkyBlock Menu (Click)",
         "id": "SKYBLOCK_MENU"
-      },
-      {
-        "name": "Festering Fly",
-        "id": "FESTERING_FLY"
       }
     ],
     "wardrobe": [],
@@ -395,10 +380,42 @@
       {
         "name": "Emerald Ring",
         "id": "EMERALD_RING"
+      },
+      {
+        "name": "Hotspot Talisman",
+        "id": "HOTSPOT_TALISMAN"
+      },
+      {
+        "name": "Hotspot Ring",
+        "id": "HOTSPOT_RING"
+      },
+      {
+        "name": "Haste Ring",
+        "id": "HASTE_RING"
+      },
+      {
+        "name": "Personal Compactor 6000",
+        "id": "PERSONAL_COMPACTOR_6000"
+      },
+      {
+        "name": "Personal Compactor 6000",
+        "id": "PERSONAL_COMPACTOR_6000"
+      },
+      {
+        "name": "Personal Compactor 6000",
+        "id": "PERSONAL_COMPACTOR_6000"
+      },
+      {
+        "name": "Personal Compactor 7000",
+        "id": "PERSONAL_COMPACTOR_7000"
+      },
+      {
+        "name": "Personal Compactor 6000",
+        "id": "PERSONAL_COMPACTOR_6000"
       }
     ]
   },
-  "accessory_power": 106,
+  "accessory_power": 130,
   "hotm": null,
   "member_keys": [
     "accessory_bag_storage",
