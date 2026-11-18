@@ -1,19 +1,19 @@
 {
-  "fetched_at": "2026-11-13T02:35:12+00:00",
+  "fetched_at": "2026-11-18T18:23:12+00:00",
   "profile": "Kiwi",
   "game_mode": "normal",
-  "skyblock_xp": 5237,
+  "skyblock_xp": 5321,
   "skills_xp": {
     "foraging": 29034.625000000462,
-    "mining": 673439.7985000005,
-    "fishing": 39910.224999999904,
-    "farming": 780678.7000000199,
-    "combat": 700652.9600000153,
+    "mining": 721108.3985,
+    "fishing": 40452.12499999991,
+    "farming": 782356.7000000235,
+    "combat": 888673.6920000131,
     "enchanting": 1422008.6814790752,
     "runecrafting": 2025.7000000000003,
-    "taming": 433894.68156898743,
+    "taming": 494804.9947973206,
     "social": 37.25,
-    "carpentry": 1845769.5599999984,
+    "carpentry": 3895940.1224999903,
     "alchemy": 250.0
   },
   "dungeons": {
@@ -59,7 +59,7 @@
     {
       "type": "ENDERMAN",
       "tier": "UNCOMMON",
-      "exp": 1285528.509293621,
+      "exp": 1529169.7622069537,
       "active": true,
       "item": null
     },
@@ -87,7 +87,7 @@
     {
       "type": "RAT",
       "tier": "LEGENDARY",
-      "exp": 509301.93375735194,
+      "exp": 518058.2966881141,
       "active": false,
       "item": null
     },
@@ -165,106 +165,16 @@
     ],
     "inventory": [
       {
-        "name": "Grappling Hook",
-        "id": "GRAPPLING_HOOK"
+        "name": "Hotspot Ring",
+        "id": "HOTSPOT_RING"
       },
       {
-        "name": "Sharp Aspect of the Dragons",
-        "id": "ASPECT_OF_THE_DRAGON",
-        "reforge": "sharp",
-        "enchantments": {
-          "critical": 5,
-          "venomous": 5,
-          "smite": 5,
-          "thunderlord": 5,
-          "sharpness": 5,
-          "life_steal": 3,
-          "execute": 5,
-          "cubism": 5,
-          "giant_killer": 5,
-          "lethality": 5
-        }
+        "name": "Hotspot Ring",
+        "id": "HOTSPOT_RING"
       },
       {
-        "name": "Sharp Aspect of the End",
-        "id": "ASPECT_OF_THE_END",
-        "reforge": "sharp",
-        "enchantments": {
-          "bane_of_arthropods": 5,
-          "impaling": 5,
-          "luck": 5,
-          "critical": 5,
-          "cleave": 5,
-          "smite": 5,
-          "looting": 3,
-          "ender_slayer": 6,
-          "scavenger": 3,
-          "experience": 3,
-          "vampirism": 5,
-          "life_steal": 3,
-          "execute": 5,
-          "giant_killer": 5,
-          "first_strike": 4,
-          "venomous": 5,
-          "dragon_hunter": 5,
-          "thunderlord": 5,
-          "sharpness": 5,
-          "cubism": 5,
-          "lethality": 5
-        }
-      },
-      {
-        "name": "Heroic Zombie Sword",
-        "id": "ZOMBIE_SWORD",
-        "reforge": "heroic",
-        "enchantments": {
-          "impaling": 5,
-          "bane_of_arthropods": 5,
-          "luck": 3,
-          "critical": 5,
-          "cleave": 5,
-          "looting": 3,
-          "smite": 5,
-          "scavenger": 3,
-          "ender_slayer": 5,
-          "vampirism": 5,
-          "experience": 3,
-          "life_steal": 3,
-          "execute": 5,
-          "giant_killer": 5,
-          "dragon_hunter": 5,
-          "venomous": 5,
-          "first_strike": 4,
-          "thunderlord": 5,
-          "sharpness": 5,
-          "cubism": 5,
-          "lethality": 5
-        }
-      },
-      {
-        "name": "Hasty Runaan's Bow",
-        "id": "RUNAANS_BOW",
-        "reforge": "hasty",
-        "enchantments": {
-          "impaling": 5,
-          "chance": 3,
-          "dragon_hunter": 5,
-          "piercing": 1,
-          "infinite_quiver": 5,
-          "power": 5,
-          "snipe": 3,
-          "cubism": 5,
-          "aiming": 5
-        }
-      },
-      {
-        "name": "Fractured Mithril Pickaxe",
-        "id": "FRACTURED_MITHRIL_PICKAXE",
-        "enchantments": {
-          "efficiency": 5,
-          "fortune": 3,
-          "experience": 3
-        }
+        "name": "Hotspot Ring",
+        "id": "HOTSPOT_RING"
       },
       {
         "name": "SkyBlock Menu (Click)",
@@ -312,10 +222,6 @@
       {
         "name": "Feather Talisman",
         "id": "FEATHER_TALISMAN"
-      },
-      {
-        "name": "Personal Compactor 4000",
-        "id": "PERSONAL_COMPACTOR_4000"
       },
       {
         "name": "Vaccine Talisman",
@@ -366,8 +272,8 @@
         "id": "SCARF_STUDIES"
       },
       {
-        "name": "Scarf's Studies",
-        "id": "SCARF_STUDIES"
+        "name": "Personal Mining Compactor 4000",
+        "id": "PERSONAL_COMPACTOR_MINING_4000"
       },
       {
         "name": "Book of Progression",
@@ -382,10 +288,6 @@
         "id": "EMERALD_RING"
       },
       {
-        "name": "Hotspot Talisman",
-        "id": "HOTSPOT_TALISMAN"
-      },
-      {
         "name": "Hotspot Ring",
         "id": "HOTSPOT_RING"
       },
@@ -394,28 +296,28 @@
         "id": "HASTE_RING"
       },
       {
-        "name": "Personal Compactor 6000",
-        "id": "PERSONAL_COMPACTOR_6000"
+        "name": "Personal Combat Compactor 4000",
+        "id": "PERSONAL_COMPACTOR_COMBAT_4000"
       },
       {
-        "name": "Personal Compactor 6000",
-        "id": "PERSONAL_COMPACTOR_6000"
+        "name": "Personal Husbandry Compactor 4000",
+        "id": "PERSONAL_COMPACTOR_HUSBANDRY_4000"
       },
       {
-        "name": "Personal Compactor 6000",
-        "id": "PERSONAL_COMPACTOR_6000"
+        "name": "Personal Fishing Compactor 4000",
+        "id": "PERSONAL_COMPACTOR_FISHING_4000"
       },
       {
-        "name": "Personal Compactor 7000",
-        "id": "PERSONAL_COMPACTOR_7000"
+        "name": "Personal Farming Compactor 4000",
+        "id": "PERSONAL_COMPACTOR_FARMING_4000"
       },
       {
-        "name": "Personal Compactor 6000",
-        "id": "PERSONAL_COMPACTOR_6000"
+        "name": "Personal Foraging Compactor 4000",
+        "id": "PERSONAL_COMPACTOR_FORAGING_4000"
       }
     ]
   },
-  "accessory_power": 130,
+  "accessory_power": 132,
   "hotm": null,
   "member_keys": [
     "accessory_bag_storage",
